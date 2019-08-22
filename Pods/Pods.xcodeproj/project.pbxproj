@@ -1,0 +1,2160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026B2B2376AC6D1F71DCF4B4CB83105E /* GTLRFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A4B9E884E1EE4511E9F2EAA964CF77 /* GTLRFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B00C9B9C47134D79BFD1E91753A0B6 /* GTLRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 613F323D1AF9E901A0216FEFDCAFDBBB /* GTLRObject.m */; };
+		04D95711131E3573505B9BE4626BA9F7 /* lang_hy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC30DFFCB5DFAB8F04DFF8013E65716 /* lang_hy.swift */; };
+		04E0892AB7D985D78069A5CF625F5F0F /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D7D54829A4EC4EA35D33D9270D2C2 /* GTMMIMEDocument.m */; };
+		058E4543726F3B8F1308D43E5BEF7B5D /* lang_bsCyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340F959428EA5C216343E2AADE998E9F /* lang_bsCyrl.swift */; };
+		07375424FAFCAE1A63E378695AB2C332 /* GTLRBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9460273D6C6764F6ABCFF6512F6B2817 /* GTLRBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A97069D1EE26810AA42B805ABF0A4E /* lang_bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D9F10652F298D7CF055D3F97C08C /* lang_bn.swift */; };
+		07B719E10E0C2BDF60677298E5DE3F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */; };
+		09D711C5858EE1BA6A42F44E40A52BED /* lang_fi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4560CF58E8C364BBB6DCCE7193F267D /* lang_fi.swift */; };
+		0B4789F602560244741E42D251803E03 /* lang_ky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01809BE06F91DEB0AC0094D9CB3A6522 /* lang_ky.swift */; };
+		0C973EB755224041ADD5942BA63B40FB /* lang_uk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59B2D113502E163D0AEDD732FD75CE7 /* lang_uk.swift */; };
+		0DC4BA265E543E2125ED8BBB4FDF3591 /* lang_sr_Latn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496D109E4CBEC7C2884C4ECFB81B3371 /* lang_sr_Latn.swift */; };
+		0E7F9AB5B10DFF79CF4F49C0568C2387 /* lang_he.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0036F112FFCB97796C354AE600D39 /* lang_he.swift */; };
+		0EBE2DB914C91FE2689975529A11247C /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0ACF7AC18C7A0C466983A9AE8D6A1D /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1207ABB5586A29DDF701B9D9F9F7AB43 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8179BC55D07E0B0C0B65F6F070223 /* DateInRegion.swift */; };
+		120E0D64E784114A0D5639BE54DF3B7E /* lang_to.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0796813AB892688679A2B414DD6CB19 /* lang_to.swift */; };
+		1237EA56E386EE6A3B4E96124F853C39 /* lang_sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8A5622E3C64F6B110F265F9FBDA48 /* lang_sw.swift */; };
+		132526B6398677EDA0416654177A2651 /* lang_se_FI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE6B0F756F6FA9F7A6EAF4C9E9EC1C /* lang_se_FI.swift */; };
+		143D7E9E458534A8E876227F2EDACA1D /* lang_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BEE7BAD4DB197334BAB345A5D5D6F4 /* lang_sv.swift */; };
+		157EBA067C9F4415FB512D0F4BCAAC04 /* GTLRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CEB54404F57CB9158321F33E888F7 /* GTLRUtilities.m */; };
+		15DE76E0B683E57DA2389CCD09149AE2 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E854D66DCE1BC7A55065589D694BFA /* ISOParser.swift */; };
+		16BE90421DB9C2ECAA7159CE3E9250A2 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DDDB56F9784411C90B6856153ABE1 /* FSCalendarDelegationProxy.m */; };
+		1C05961249C80E663E03866050AEBCE3 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CBB44D80C67176478416F065BABBD /* TimePeriodChain.swift */; };
+		1C33A8C8F95A3B3D864DC22B9E5B3CB5 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9233A2F629065B9D2159EC6EA3EDCE4C /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C607CA06AEB3AA72CC7827E53C3AC06 /* lang_kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B3792EF92667233E8C8889E2F8B04 /* lang_kl.swift */; };
+		1C904D42FAC88234092D095EAB9E280B /* lang_zh_Hant_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63D4291D96FE64D7E4DD8F5C5F0BC3 /* lang_zh_Hant_HK.swift */; };
+		2189ECCCD4143BD1617B4B4F8A6DA18A /* lang_dsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970933D3F819528AC0A297E0DB76E491 /* lang_dsb.swift */; };
+		21FCBB090D35D27720BB784D3E6B480A /* lang_es_US.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FBB46AB9B86B58C439D7D5BECFFFB /* lang_es_US.swift */; };
+		228BD816B19C8A2A2ECB71DCB20A6580 /* lang_sah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C845939A22915BE7A68B95647F065 /* lang_sah.swift */; };
+		23F21E65E1702DB31B3F0B414BB97704 /* lang_wae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C187EA58972F60F888924DCD0776B /* lang_wae.swift */; };
+		24730F0254291E6388EC4FCC4CB2906B /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A0A510D658CD2EB358027E3BBE9171 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		259FC6DCE1BA2BB0EED84730C30B5AF3 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 349195044FDFB35CE96C2CD68424C1B0 /* FSCalendarExtensions.m */; };
+		26DB78B4822709F55C28E9B859BBE415 /* GTLRCalendarService.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC8795FB56A53E7CA61F9A3B0931585 /* GTLRCalendarService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2954371122F7E4D75EFCE8FB762C2838 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = D87F924FF90E4F0487518AD6AF072BBF /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298128A24672B340A05911DEB067689E /* GTLRQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7310616FAE5EB27F5CBC3BFA73014B8C /* GTLRQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFB1B23253AA37B0F4100F57409A776 /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4031A0E5201BC3937C9BD3A6B098AD0 /* TimeInterval+Formatter.swift */; };
+		2C873429B5B4705F39D5AF73C0FB0164 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0EFD6CBF962CE2019E3B7FC429C64 /* Date+Create.swift */; };
+		2CBF51DFD6504340429B774852F34D33 /* lang_ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A85523AACC9AD86E7A0EF6D78A4CC /* lang_ee.swift */; };
+		2DD7929FE8E8F8F95106FE950509B741 /* lang_es_PY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767F39A4A308FA3D87CC786A66050D4 /* lang_es_PY.swift */; };
+		3080B04AAAD372E7BFF99564D1C7FECA /* GTLRCalendarQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7C9B1AA07D9603818866E8B5130B61 /* GTLRCalendarQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31B9A58215FE28C293F08B99E110D211 /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 076A351408829428D852126AF8B23DE6 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F2111C99B70B4E7114B047216B0F76 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4491F166CCE6159D911DF893A999015 /* Calendars.swift */; };
+		339A0D7FF59B8B46966ACCF8DA8EE46A /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453883BAD93D580BA4A2DE0AAD18B8F5 /* GTMSessionFetcher.framework */; };
+		349E945C5539453F66375B4CEFA08A26 /* lang_fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C8A6510995577DEE801225B2F081E /* lang_fur.swift */; };
+		3521CBF54342A24A1103AB6393143DC0 /* GTLRBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E83765FFFD907A5DC8EAA18AD80CCA /* GTLRBatchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352B4751246CC001F3E65F507BEA3707 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8CB495C6045CAB4C4F790FFBC10735 /* Security.framework */; };
+		358950BA6E8EE4C99587456B849C41CA /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9DD15A5898882D142B1EA76545ACF8 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		389AB31471187DB059CDF638BDFAFE87 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB9C5FF9B312BBB3ADF5D50565BDF8 /* FSCalendarWeekdayView.m */; };
+		38F842E55C1A894E74464F034A5EFF39 /* lang_hsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97889DAEB7DE17AB0835E0504A7E7655 /* lang_hsb.swift */; };
+		3AD167FD7CCAE9D5A84252096DF0A5BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */; };
+		3B828CF94BEFFCD9E845A23FF903E660 /* GTLRDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 611F56B4660D2F180F9F936982F1A966 /* GTLRDuration.m */; };
+		3B982AB2BAE6C94048BBDB8FA8A251B1 /* lang_af.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7FE0D1C487BE9D22AF33E50C546B8 /* lang_af.swift */; };
+		3BD84D192D255F621A1779B283FFB1A0 /* lang_sk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479FFCCFCC7F3185FC05AD715A7D3337 /* lang_sk.swift */; };
+		3CD26703F478CF96BBAD79414E61EE31 /* lang_am.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9894FE504DD1769E3F46D83974457FFD /* lang_am.swift */; };
+		3E854A186108E25107EA25E175E71D2D /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D39355F90EF91DA84CE47C7D724620 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED8193EECC0C101D9DC7BFC2A7B1954 /* GTLRCalendarObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AFC8E8FDA52A4547FE061E495C1477 /* GTLRCalendarObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410FBAB29E1E53A58FC9AF29E135DEA4 /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC5703D78026CC05CF0532DDD5144C /* SwiftDate.swift */; };
+		4148163B3015B9BC1A4E6A7FCCA17E3E /* lang_ka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC886B6C30A20EB71D13BBD9E37DB01 /* lang_ka.swift */; };
+		419CA1888B9DCF1CFBFE9EA919E3EFE6 /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9090C886885F8EAE297605B4898CE836 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420D6C910CEB92F34E4E2F15BBE8EA4E /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DABE7AECA97D7D6F739F20761356435 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B5AFB72E8D1524A3CC102D8911C9C0 /* lang_pt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05503C651680B0A8B05E83BAF7847683 /* lang_pt.swift */; };
+		4602D8FE19C3AEDFFAB3E5F6276DBBB2 /* lang_lt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D0587C4CD039240AB28A4B4998BE8 /* lang_lt.swift */; };
+		475094B9ED3D847DB1E84C2637E8859F /* lang_lb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B525051F2471EDF98AE130096C5BD0 /* lang_lb.swift */; };
+		4797739F9B7E2C7D93C6FAE18DACAD8E /* lang_sl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75740E0C723BCEBDC39ADBFDC90817 /* lang_sl.swift */; };
+		486106A74A3FDCF09D3CC1793258AF3D /* lang_gu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B383F974522AF37D03866C24456C3 /* lang_gu.swift */; };
+		4A2A0C2B4AD6672B8B880A24F9DEA74D /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4DD8C5FF2C2517E2A0A9E2395C957 /* GTMReadMonitorInputStream.m */; };
+		4A7FE1CF2357B61C90E6D0E54E232A9B /* lang_zh_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7071C416912F015744E6F93D064F042 /* lang_zh_Hant.swift */; };
+		4BA56434E3C216B81E93EFD1EE71852D /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6F5D505DD0651E9C6F948AE3A807E0 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C69223B76D14842C7613F55889877C7 /* lang_yi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8CA874FE24C9A460B52E3E24AD2ABC /* lang_yi.swift */; };
+		4CB56D5CDCB9425D8CB15A5FD937A190 /* lang_eu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAED7F75762EE3FCE74B27D42A45EA /* lang_eu.swift */; };
+		4D2905E24E0D8C17F1D70B6F68D1802B /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DB19FE13AF3E60E4CA77D51FCC16C /* TimePeriodGroup.swift */; };
+		4D2C0389A76F48203FADA172CB025BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */; };
+		4DB7C2D75403B8DB65F54BDAA66CDEF3 /* lang_uz_Cyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739CD9D4DED8B7E596BFB50BC93257C /* lang_uz_Cyrl.swift */; };
+		4EBD7C4E66B72A83A86F7EE5976B1CC7 /* GTLRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2A484A150E5E30AB63B02FB22DB97D /* GTLRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F024B8B2F320BD392B265A97C34CE62 /* lang_vi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5E059456E87DBCB75A0F9CB222FAE /* lang_vi.swift */; };
+		511DA4744B4128B435247070B3ED3A68 /* lang_ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54988AA0D13D1746622C4CC60B0F6637 /* lang_ne.swift */; };
+		51851AD40C478E69AF6E5B2FF6416B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */; };
+		51EB3D81DA46415F61FC8BBAF839177F /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9790C2710E24E1159ED5B44FC0133F27 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546D874ABC60B03E74C41E79037552B8 /* lang_uz.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF81598F23302B877E34323E95FDF2 /* lang_uz.swift */; };
+		54FF36A3007B9F3ABD975B204DE04DD5 /* lang_el.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206863B71CFE0A8EB27966D666FB70E9 /* lang_el.swift */; };
+		55B8B6D6A0BB68AAC0F5894ED3F9E6AA /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = CC42E860DACAF6BF9EC07748EBB6E3D7 /* GTMSessionFetcherService.m */; };
+		56B4CBD796E63FA9108D49667ED2326F /* lang_lo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAED58DC1B277E30F1E92585B52E7FE /* lang_lo.swift */; };
+		57433A4F1650189F64867457F77802F5 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C7C5EED3C38C41F474AE52E7E5DF7A /* GTMSessionFetcher.m */; };
+		57C1A07B3EFDFE8B0E5A5DF7107010F8 /* lang_fy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D510FE0CA37A1ED52944272C0473B0 /* lang_fy.swift */; };
+		5AEE66C4B3BE64D467703D7F4EE591F7 /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BBDA888A9FD8879D36093C95DD8B7 /* TimePeriodProtocol.swift */; };
+		5BADC9046AA530024FCAA1A9323C48D5 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 120A6EF17EE1D60880584CC48214C8C3 /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C719B359487169D186A3E9AA5A7E418 /* lang_si.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9D8A125178D363DD3BEE819F556 /* lang_si.swift */; };
+		5CF4B2BE82602D1EE76B227450F8DBB1 /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9F5FD0E2E64A40F4FF9A0293D554F /* RelativeFormatter.swift */; };
+		61153124F3F87E794D10CCA08021855D /* lang_or.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471692B83502CFCBD2F73BEBCB89C7A3 /* lang_or.swift */; };
+		6290860E7A03CCC82E93D035F0A39E50 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = E610EB299B29EC253ACF5E1BFACFD581 /* Region.swift */; };
+		62F21EFBFB88EBDBFF75D204997B6A81 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A8E7211BD6A39D6623A8831DF764B2 /* TimePeriod.swift */; };
+		66EECE4B89B3176189F019B224EC025A /* lang_nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EFF4EADF0ED6E78089E2FA5C882AF /* lang_nn.swift */; };
+		6852775EF7660D69E5C8B3797778FBCC /* lang_as.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208B988DB92D7CA5CE3615E6D8BD094 /* lang_as.swift */; };
+		687E13C6BC9899593EB25A618723FC48 /* lang_br.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F12BDAD082907FB6577AEE64844D65 /* lang_br.swift */; };
+		688878E67C4364BAA5B024F37B898DA3 /* lang_te.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E316764C51CDA6F0FC40A798E53ED /* lang_te.swift */; };
+		68EAE7A69ED3E2E1D2CF799F935FE780 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A7769A19CB5DFEF99C584AC9617C3 /* DateInRegion+Math.swift */; };
+		6937DA048581612FB5227ABABC89F578 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44A25002E6C3A0FCD9C370B1D93331 /* Zones.swift */; };
+		6D42152A51C591C058154CF8D0A9109A /* GTLRBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 40521C4740907D2EB8B0E80E075D962C /* GTLRBase64.m */; };
+		6E2EBA34F7E062EF3F7909C4FE26432A /* lang_kn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5645522C77C320F22FAA0A88C32E63A /* lang_kn.swift */; };
+		6EEDDC0F40020440211217354AAFF4FF /* lang_zh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AD8CDFD05D47CEAC0D56826AB5A36 /* lang_zh.swift */; };
+		6FC746DB093730829F5D2CA9C3E5EDDC /* lang_yue_Hans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE1D07BE5522801F0DA92D443DA362 /* lang_yue_Hans.swift */; };
+		707E79EED56924B8EBEE93FF5820C519 /* GTLRCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AABD1D9A104F2FA29F1060A3FF2787 /* GTLRCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C555D114B61A310FB1D3DC9800047C /* lang_cs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681EEDEA1A354796857F142379B9E7B /* lang_cs.swift */; };
+		714B851A995247612F7C37EDA78389DA /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5083197A74F5DF7BF7B5A8AA07637 /* Date+Math.swift */; };
+		7172D7C9C00985C724E08400F03AF252 /* lang_kok.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB724CF8BDE12A62A8C013074A94428 /* lang_kok.swift */; };
+		71C07575BF136256A3C777B713C21A62 /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9674C12CA0D5597966F3932E86E48B4D /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720AF7649117F7CF0521B5E1350BA48F /* GTLRErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DDFA7518E2E38083BD677B3221BCA6 /* GTLRErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743DFE0E601ED5652FAD91CD17D34206 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E14BC1E4F7F9B3728DEF3C0B3801B08 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C8527CEDA316E2192B81FE1857C5F3 /* Pods-West Deerfield Township-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794362AB956485D0F32156F8B572BD29 /* Pods-West Deerfield Township-dummy.m */; };
+		76DF5D704AC9EF0C246E8D53D932EFDD /* lang_ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1400A345975280F8D45290463DE4 /* lang_ms.swift */; };
+		77805579FCC9F759B975A563615622AD /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3254CBFD31FDC097DE997E936C16E7B8 /* String+Parser.swift */; };
+		791C7F82AB2A9EADBFAA37508D04A759 /* lang_ar_AE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58991941148B3CAC76A8C86C787F2B41 /* lang_ar_AE.swift */; };
+		79341175C27C24314C386DB3D901AFF9 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229139A4CB4D9DC70749C553778A68E6 /* TimePeriodCollection.swift */; };
+		79475C5418E28193587A8D9962ABAA5F /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8A9B0C5097334424E1AFD56F6C0701 /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		797720D4F0C8DAE67379364DD4E24327 /* lang_hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F902F199BC3696C15D887888880EA /* lang_hi.swift */; };
+		7A8B0A3D45337E904FA69BB89D644CCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A91BAF931FE8AE44325F3B0D33B072 /* UIKit.framework */; };
+		7B01BE4C3C33B5E787962B6781518DD2 /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E876B12F632DF10297EA98D4851C7B4 /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C730389F901BE0D2ED0B519DD198149 /* lang_hu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712CD5A7A04A214F934B9F7200BDB809 /* lang_hu.swift */; };
+		7C936660669AAE197A5AAB8FAC761892 /* lang_my.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45316E1ED809C77E9094AC1411F3D17 /* lang_my.swift */; };
+		7D2A5FF6FED59929C0C4F9A87E48D57A /* lang_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B0CDF073ADD7A368FDE8263BFD9409 /* lang_id.swift */; };
+		7DDEB31ADBF3DC5F1E5C40AD374599B7 /* lang_et.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03E9AFE9F0A883C49DE765F886BF03 /* lang_et.swift */; };
+		808B0FC2B2372E0E388CEE19FCECBC48 /* lang_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE502D5915324A587D376B0795FC9FC6 /* lang_ko.swift */; };
+		80B3BB5C8CE1A5AD5C3507BA762CFE89 /* lang_ta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037F5689A030563D54FAC252DA322BC /* lang_ta.swift */; };
+		81D34B80D3269C069E44B4B1B33DAE36 /* lang_lkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B806B373F007C6D365CAD37006F04F /* lang_lkt.swift */; };
+		84063777C35C27B5475F9D497427B5C5 /* GTLRBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ABB8A702C88A0A4C735367286033D1 /* GTLRBatchResult.m */; };
+		849C9E5D2FE0810D1A9E3368F5D6D87C /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC78D071923B6F9892D27B14EBA81F /* FSCalendarCalculator.m */; };
+		84D820DEC96C38D349DB834154A9F462 /* lang_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038C3074190459A9D9452A9DC9167F0 /* lang_fr.swift */; };
+		85585F91CD314B17F392B4896C1D27EC /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9D46724FC18D2F04282D279D287BF /* FSCalendarConstants.m */; };
+		8606A441F68797F25600493B385B01DC /* lang_th.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF36A3D79D315082E346FDBDFD0E4E5 /* lang_th.swift */; };
+		86165829DEEBB2D3570089EFB766F2F8 /* lang_zu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97C0684F8B22FAD0F6B68883A80D1 /* lang_zu.swift */; };
+		8655CCEECE1DF18D6BDBDE14654E3166 /* lang_gd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDC687088E738FB9F5593D1021C156 /* lang_gd.swift */; };
+		86709D70F31244D4DF8F2D758379881A /* lang_sq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417EB3C933D130741B3D15D00B32CEF /* lang_sq.swift */; };
+		867AB9CCDB4C6B8C1FF4C0455838827E /* lang_se.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9D93DBBE39C10CDA47C97FEC00148 /* lang_se.swift */; };
+		893D4E971523C2F5F4BBC945E37AE5FA /* GTLRDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8503EA26601273814AA0C3F705A906A3 /* GTLRDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A85027C5809CF3D02CD9F5B8998A027 /* lang_az.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F64073D3698E5FA29952EDF60A9A3 /* lang_az.swift */; };
+		8ADBFB5BFB8A9D71C46FF887E1D016BE /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 108ECF698BA25B6CD0DC2750EA65CE03 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B37E7BEDAC8737B8B657FB03DA7B22A /* GTLRURITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB818A311AAEDF9641FBAAFA8262475C /* GTLRURITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C42B47E78A6C8290766562595DC5D8D /* GTLRQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 166668F167F7056AC4BEB56F24CBE49F /* GTLRQuery.m */; };
+		8CCF518366B35A75D017BFA69667CACD /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46E6AE18E05C55CC7FB2291429FC0F9 /* DateInRegion+Create.swift */; };
+		8D4775B0D3EDFF24569746F51704F997 /* lang_pa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA01BBEB870C4E24FD4F2AF5FD6E51 /* lang_pa.swift */; };
+		8DC2E3DB61B698FDC137D24ECA2598EE /* lang_ur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D78E3D49BBB306C7003045CC6C1FE /* lang_ur.swift */; };
+		8DD2563D4F136E960466D761753AD2E3 /* lang_bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7FF6E0177321379339047A0883D09F /* lang_bg.swift */; };
+		8F9FDAD0B22DA02B0D4E9A58C5787D32 /* lang_ti.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6EBAD3947573BE9185BEB712EB548D /* lang_ti.swift */; };
+		90D172F68FA74AB5DB81C7FCF7D37730 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51BFDEF0F769F17161042407920E29 /* Formatter+Protocols.swift */; };
+		91CDA92C8D0F81832C5ED8A5C9003E3E /* lang_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBAC6757EE7DBAC484AC815B57FC9 /* lang_it.swift */; };
+		95A116E8EB41F137B1ED4CAC6BD1246A /* lang_en.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D6A87147E54FC3B1356DF1C9EA41B /* lang_en.swift */; };
+		961634EBEB19C3DAE2B10CEC346511E3 /* lang_cy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED714863C7C7333E738407E76ED5C0A /* lang_cy.swift */; };
+		96EE3CA923B89220FDCD6E1025757228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */; };
+		973FE8759B5FB18DA9C8C4AEC6E3E650 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AAB5E76891F7F4DD8F18FB20AF10E /* FSCalendarSeparatorDecorationView.m */; };
+		985148E1699E06B187F9FFDB493AD6C4 /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E6A010189A55E2114ACFDBE8B70BC /* ISOFormatter.swift */; };
+		9C304FD2E81F656E940BAB585B972AD6 /* lang_da.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E71F4E1F84964F5A8B0EAB78F686447 /* lang_da.swift */; };
+		9CB21AA5B0358ECD1C9AE724C2B11CB2 /* lang_fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C6B5F7172438B41B5966B39619E6F /* lang_fil.swift */; };
+		9D206E304DB98381F266118950B05E20 /* lang_nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E248930B93F8FE87A5991C198911E2 /* lang_nl.swift */; };
+		9D88FEA1DC9514023001416A4C191B50 /* lang_km.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE94189430D66BCB8D935E6AC97E496 /* lang_km.swift */; };
+		9EFB720ABFFF08FB6B23F592431E9AD0 /* GTLRBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6163B3A744970BE93A3172D9D89AE6 /* GTLRBatchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F467BA70D53BC0D5F112B1335BDE870 /* lang_jgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2897772B485140E547E89966CD555 /* lang_jgo.swift */; };
+		9F4EB24EE060E32D9A504A6222917D69 /* lang_es_MX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5769DDB2EFE966286F240F76F69A2056 /* lang_es_MX.swift */; };
+		9F5667E94B469E9FACEE6243436026E9 /* lang_mr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D689689B56B1F0FBDB746EBEAAE3C53 /* lang_mr.swift */; };
+		A0BFF3FE962B117975AB3844734F2FC7 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A869EAF75C150E93926F96B0B58FFBA7 /* DateRepresentable.swift */; };
+		A39971F7ABA0D64D2563F7563235E48D /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C42789619DBC17A7CBE2D7717E415F32 /* GTMSessionFetcher-dummy.m */; };
+		A48664D1B0EDB6F9EB0EA28490AAF886 /* GTLRBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DED571427FB787BF5178C533A0E4 /* GTLRBatchQuery.m */; };
+		A52D89B20F7855358EB3EA8E69F3ABB0 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B71ADD466C66558A318902EE7529DD /* FSCalendarCollectionViewLayout.m */; };
+		A5602708177572314F2C07F9573D0440 /* lang_zh_Hans_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09201E36C419C90AD8C0F95F8DA56917 /* lang_zh_Hans_MO.swift */; };
+		A7774CB00D3ACD0DE9BB0DA7EE688692 /* lang_ml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BB9449A440FECA3AD7C60B872529C /* lang_ml.swift */; };
+		A94D447D140C253830661D5BEE00F178 /* lang_ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBB2DF32D68C53E1990FF663866F358 /* lang_ps.swift */; };
+		A95C02BA915435B4D48FBB1BC442263E /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C6E4DE21B36B74281B032F48E1349E /* FSCalendarTransitionCoordinator.m */; };
+		A9B720490D2E5AD9EA2880D971F8434F /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F45BBB11B126ACA5A662AD897278CF /* FSCalendarCollectionView.m */; };
+		A9EC0094C0BF12F3A8506692281D663F /* lang_gl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10C482C32E43EB400929E046359AA3 /* lang_gl.swift */; };
+		AA1619A9150D9CF9D216528D6C5D9E00 /* lang_sd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16902255CD449DE07D06472C5AB58F7D /* lang_sd.swift */; };
+		AAF35E44B6FD6CD6C6091C1EADA9EF5C /* lang_nb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F0EA0F22AE9CA3C873DD80DC2ACA8 /* lang_nb.swift */; };
+		AB0A8722407407E0E5E61CBA13843B85 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B7BBC8C4458CA58A86D82082EF5F4 /* GTMSessionFetcherLogging.m */; };
+		AB641B2223B79420EAD6F7A66D9C4F66 /* lang_ru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE1FF05E2A09085848DCC9E5EC9A9D /* lang_ru.swift */; };
+		ABEE6DD008F07C7442B45CF578CF0758 /* lang_bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E85F29109A699C5BB6B470AAC4E8D9 /* lang_bs.swift */; };
+		AC83E4F4A95FAC3FECBA0E3E95E0D95B /* lang_kk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3158E0BF9A683094652EBCA5ADFED /* lang_kk.swift */; };
+		AD338013850898D7AA75F657DA933420 /* GoogleAPIClientForREST-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F8691A32E820805ABFA58A4970555C /* GoogleAPIClientForREST-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9D4DB8C6704028CC726D51E7E35547 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF81206BD862742E597CA8BA41CBA2 /* FSCalendar.m */; };
+		AED5638D51E2DF906B6B854D1A0A659B /* lang_lv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E1E7DCA99298F732015B0833B0A62 /* lang_lv.swift */; };
+		B144FB08A358493BA948586A01F1A57B /* GTLRRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C8BF9F8987EEDB04795C5D2625ED /* GTLRRuntimeCommon.m */; };
+		B2E7A31D316742634E82C77B3A77ADE5 /* GTLRErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9624CFB03F74FB333FB98D190C88D /* GTLRErrorObject.m */; };
+		B394F510DD1DDDA444E082748528D10D /* lang_tr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC02517A45A671D3200F7D311F48E6 /* lang_tr.swift */; };
+		B48C750F731A22AF62106D76380BFBB5 /* lang_zh_Hans_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4069C59D74A1E1D4C87F827A1E21A9 /* lang_zh_Hans_HK.swift */; };
+		B4D00ADCA9B266AB24BFBAA9899E5F15 /* lang_fo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812805FE10AD7AE099E402B98C4A4471 /* lang_fo.swift */; };
+		BB74BA7BC0E43A711C4AA878A0BF6E6D /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 477ED18F11EC7B33748C7CF4889DCD1C /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC985427DA385E9050F783CCD52B9311 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8921F8902F8EC8DBB2C330E30500B6B0 /* SwiftDate-dummy.m */; };
+		BDB6BA43250DFF70689481AAC9750E82 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95213D5355433BC2B6A12EC786378924 /* FSCalendarDelegationFactory.m */; };
+		BF30066796BAFB82B950B0A088CAC576 /* lang_yue_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6627D769B0058561EAC2805D0CF81C2A /* lang_yue_Hant.swift */; };
+		C060623B11B9070CC76819833F3FA84C /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3391C427543340A23F7B8F23CBA8B16E /* FSCalendar-dummy.m */; };
+		C17186F484AF0F092C44648604A2EF29 /* lang_ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B77473F5CB05C399C84C1861BECD0 /* lang_ug.swift */; };
+		C1DF12D5F3004547BFD9D4C804E93F01 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D2113381E0035FBAA2C983A7254D18 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C353C5D4F7043FEF146D24D97F4707BD /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A623E20BC8E8B1712922215A09E998 /* TimePeriod+Support.swift */; };
+		C41407CFFE58DC25F5F593C189AB99D2 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40667EF3E097BA0E5397987D1BDC43B5 /* Locales.swift */; };
+		C8498D5D4BC978CD661B1B051DD17E74 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB3A06C96AECCCB075B2158900849B /* FSCalendarHeaderView.m */; };
+		C89ABD2F4521CC6424253FDFF439C516 /* lang_dz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CC82124ECD195BBBFC6900A458412 /* lang_dz.swift */; };
+		C8C28AE0AE100A4FF2185B451084B1C9 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0816ECF586D14A51C665E608DAD398 /* GTLRUploadParameters.m */; };
+		CA018C9A76234DA000639879AA519AA7 /* GTLRURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138F3A5C5C782EB5494B4E997C71BE6 /* GTLRURITemplate.m */; };
+		CAF3F7A4C19937AB8F7BFF331CDF4A70 /* lang_hr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112FB136E229B9E37C3E13ED1A3658B /* lang_hr.swift */; };
+		CB394B727F590076AB9AC824E5FF9303 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F323DF682DC02D2A49B4FAB0B9A5B5A4 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB47CB55020F558663662493C8A89188 /* lang_be.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A05A5EE7A80F74F3C2388B324877AE /* lang_be.swift */; };
+		CD97CDC27F3364930DFDDCE5D368DE05 /* GTLRObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A51CE46E35650CFC437E80AEC2E86721 /* GTLRObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4D3A0E467363C2071CF2214C56189E /* lang_ur_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF047B602CA8B95939D487650B78E21 /* lang_ur_IN.swift */; };
+		CE6742F3BDAABFD47991297364BC2F9F /* GoogleAPIClientForREST-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868A1E84BC1E25E2D07C62A729D9003 /* GoogleAPIClientForREST-dummy.m */; };
+		D06935A59B3E3CFBF971E9613C80C49D /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 76855112FA5EEAE5FD31F55E4F119571 /* FSCalendarAppearance.m */; };
+		D13E500E72B7D039A573333D60B7444F /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEBF20D05487D716461EA20512A9E2C /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2412041A282EF05F3866589FA3A6B7C /* GTLRFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AB9FE35BADF5DB97BBC34625A479C /* GTLRFramework.m */; };
+		D3599A12724D4A47159DAB902BEB59D2 /* lang_mn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB36FD58620F4E7E227893F461C17B /* lang_mn.swift */; };
+		D535088A5E81A0C7A8FBAE1170C598DE /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E6522D88B8BA09103766FE7A84018DA7 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7597C04B8FE1D1E5D30E304B965022A /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB8E9D5B0497080B490A3C0DFB971 /* FSCalendarCell.m */; };
+		D763D4F910D1405E19AA1FB406CC04F4 /* lang_mt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DDD7EC1BF100A92C71578E3B226F2 /* lang_mt.swift */; };
+		D8185809A3DEA965DEA78DB2C875BE5A /* lang_sr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB10F68BE8302B76BF1CEE97E4148EC /* lang_sr.swift */; };
+		D8CD4C47EC113E48397BF2282375B4A1 /* lang_ca.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15167470B39E6C834B3CF30FD1DEBB /* lang_ca.swift */; };
+		D907A940EED5C56BA3A632185ADAFFBA /* lang_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9AD60B61938F4D2594D285F9D332E /* lang_ja.swift */; };
+		DA4EE3383D560EB622290E4F688DF559 /* lang_mzn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425603EDC4FF7792FCBC48666F89AF7 /* lang_mzn.swift */; };
+		DA9C6910C4AA8D73350C8AB7A0474FB0 /* lang_zh_Hant_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E495238C7B437DA885433218A6A9EC /* lang_zh_Hant_MO.swift */; };
+		DB320EF4C2F066976A1A6B479FFF16F0 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735039C6C87DF8462A52FD29DC772573 /* Int+DateComponents.swift */; };
+		DB445A3B96A84AC3EAF3E68B88D48962 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2ACF6CD0483ED43C5124FCC690C1E /* GTMSessionUploadFetcher.m */; };
+		DB8AD12E8E18E76E80033862ED8779A2 /* GTLRDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E8ECE01D8731E4272B2109B9C5DC60 /* GTLRDuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB3602ECDF06051AD95CF6898AD4D0B /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C37C508CC766EE623DDFAE8D655FCAE /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0443ACFFDB1E8DB627D74B6887B726 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375288729B214EA7BDBCA0118686FFC /* Commons.swift */; };
+		DD7EC1EB96E5C36C80FE73846029688D /* lang_ro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29FA76D6DAC4FCA758E30F7EDD989BF /* lang_ro.swift */; };
+		DEEDC5B5A52A7343CE425F0A411C442B /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D0414E20E250FAE130F982BB1196B1 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E064011AA68E40CEEE93CAF4532211DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E3188598DE5928C4C0D11A447C5995 /* QuartzCore.framework */; };
+		E0E61217ABCC6A0D4CD0D234734A0964 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 427E9491AC33BE37527ACA69630AB8D3 /* FSCalendarStickyHeader.m */; };
+		E114A8A169828B3B8E69851F8D475FD3 /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAAEE80E71EC7C12A35640F38257224 /* Date+Compare.swift */; };
+		E1ACF000EAC88CFB19D9662DBAD97077 /* lang_es_AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EB4E4906D9F96570A184F1A0F22E7 /* lang_es_AR.swift */; };
+		E1F45C7359C68E7416CC6CDE488DE7AD /* lang_pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F847D841AB05CD5CD0608AA20FA8A /* lang_pl.swift */; };
+		E3B68E6B4EAB7E636AAAA146A1C95D35 /* lang_is.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E311C90FD7DF1EFD2B250B25EC7F6DC /* lang_is.swift */; };
+		E3D9928DDFF8D82BC78CAD6D898FF502 /* GTLRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 00545BD24642EFCEE423EB7C55F18D01 /* GTLRService.m */; };
+		E417ADED531D1263DB5DEC4806489059 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = D876D3EE5697A34F346469D6D725C18C /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62FBD5E826BBBE4988C23421C26C86B /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6418FF47AB102200188EE9BE16CCD2D /* DateInRegion+Components.swift */; };
+		E7892B99233C91F2A92F0E3645DF3D69 /* GTLRCalendarQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65B07C5590CBE0ECD8B46057E0C1BC /* GTLRCalendarQuery.m */; };
+		E8D72974837CFBF30AD6869396A284AA /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1BCE6CD3360401C03A682E2BFF993 /* DateInRegion+Compare.swift */; };
+		E93C90361F4A6CC44AFD3D9265F0A1BA /* lang_tk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED01211B42EB8D32610CDD26691173 /* lang_tk.swift */; };
+		E9E60FC4895B6E0BCD6FBD5219EA60E8 /* lang_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FDB709A9CBD6A4D58E0246F989455 /* lang_es.swift */; };
+		EA08268F9E3EBFABEFB43BD5EAAEFB61 /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B2117B17B8AEA857552886037A6C15 /* DateComponents+Extras.swift */; };
+		EAF1C65416C2193B407715FF0C8ABCEF /* GTLRUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D567711FE258B835E0FD8E10374B7D2 /* GTLRUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD94266C808D642E9D5471AC17C1358 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7054266EB69BCA63A2F07D4316957D /* RelativeFormatter+Style.swift */; };
+		EBEDDD5F4533F998A54C74F851C2E590 /* GTLRRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 31208CFCAA9FC470216D166A0E548A37 /* GTLRRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC925460F351FAACC6537FB3E42C3C29 /* lang_fr_CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A4F4F417BDEDA96B3F2760CB74AF7D /* lang_fr_CA.swift */; };
+		ECBE7CEC161BC74C497654292A20A0A3 /* lang_ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E22718026A183D988C41970BAFF13 /* lang_ga.swift */; };
+		ECE18125C94E9DCCE74DA39175080717 /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396C045E7D2E58C40944BCD65A0869D /* AssociatedValues.swift */; };
+		EE806FDD93975AF2983AED8B332400ED /* lang_mk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459AD9DBD1F30F8EF6EDE62C44228AC /* lang_mk.swift */; };
+		EF1B38F7C5510C09E468A9375BCB96A8 /* Pods-West Deerfield Township-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D862133B35537B61A545111E62EFD6CE /* Pods-West Deerfield Township-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF787A6F4769F398C8167E228211222F /* lang_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B15B8AE50B5F2591874D24030FA0C4D /* lang_de.swift */; };
+		F01C40EC563AAE7A618C154CF95208EC /* GTLRDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EAECBD14990450AE48E3A2FF0E6304 /* GTLRDateTime.m */; };
+		F03F93E24754824917974EDFBE7872FB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161C27B1FD123956364F916216EDEA0 /* Date.swift */; };
+		F0E22AD2D6640F9AEB4BD9EF3ABC4691 /* lang_zh_Hans_SG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B961CF1D79836237A5054FA4F3E715 /* lang_zh_Hans_SG.swift */; };
+		F197432CD327C9DC2C48A595CAA45DA2 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 47922A744D39E95E946EEE93DA678B72 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F36B7335CC5DBDA46D3ACB719F2F1F0E /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BD266F997A9A86DD9F102C5D1311C /* Date+Components.swift */; };
+		F9272E9EB18BC3E99D8DC69B1EAAE9E8 /* lang_kea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3200D190054CB39E341D8DBF356745A5 /* lang_kea.swift */; };
+		F9D29440BC91784A56E56F422574DE01 /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C268A4938F0728446DB706737790A4 /* DotNetParserFormatter.swift */; };
+		F9DA37C83B8D98ADF4ACEC732C333217 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5073126FFE3E11AE460ABAC57075DE /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA3475429CAC9C7C0686CA3AE0E4BFA4 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E3EAA2B69ADFB9AB6FFF098F3686B3 /* GTMGatherInputStream.m */; };
+		FA6FA9659D7BD76A9DCCEA3B8F406C6E /* GTLRService.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C15178368209CE17EF0EFB06276C65 /* GTLRService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0943373965CB1729567FA13DFDC74C /* lang_fa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91303633D586E3CE76692F99CF126B /* lang_fa.swift */; };
+		FD4DF72AF52BA14A0EE2D5F5B516D18F /* lang_ksh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7550ED88195ECB6D2966D41D8F0A47 /* lang_ksh.swift */; };
+		FDE0044D7FFC25E1FB9A02F38892C990 /* GTLRCalendarObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7496837FD37F83FB0D178BF60E3F3224 /* GTLRCalendarObjects.m */; };
+		FE833B286AA69AECFFBF4E2076F663FD /* lang_ar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702478CD29A11936E5A3B0592A896423 /* lang_ar.swift */; };
+		FFBC8188B3251503E9034F8DB518D453 /* GTLRCalendarService.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D928638A925AD96CD735BB38EC4A39 /* GTLRCalendarService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0104C4EE316CED8D590DAEDEB6D1A880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1921C72E1ADC97E3D04CA25FFB58DBFC;
+			remoteInfo = FSCalendar;
+		};
+		4AC9075DA67FE8E934DE85E97A78091E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B728CB0EA99E0F632E185F0C5068E7;
+			remoteInfo = GTMSessionFetcher;
+		};
+		4D4D739402F3692D4158EC42D31E633D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B728CB0EA99E0F632E185F0C5068E7;
+			remoteInfo = GTMSessionFetcher;
+		};
+		9529A5A8CC876089CEEF0C29AE17D4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B14C777C20AB8CA13371DFC362ACE651;
+			remoteInfo = SwiftDate;
+		};
+		A1073D4042B9FBBA86608F54F825C741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263C387953B2BD9BBC816B00850D9936;
+			remoteInfo = GoogleAPIClientForREST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00545BD24642EFCEE423EB7C55F18D01 /* GTLRService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRService.m; path = Source/Objects/GTLRService.m; sourceTree = "<group>"; };
+		01809BE06F91DEB0AC0094D9CB3A6522 /* lang_ky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ky.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ky.swift; sourceTree = "<group>"; };
+		01A4B9E884E1EE4511E9F2EAA964CF77 /* GTLRFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRFramework.h; path = Source/Utilities/GTLRFramework.h; sourceTree = "<group>"; };
+		01B806B373F007C6D365CAD37006F04F /* lang_lkt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lkt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lkt.swift; sourceTree = "<group>"; };
+		05503C651680B0A8B05E83BAF7847683 /* lang_pt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pt.swift; sourceTree = "<group>"; };
+		060BD266F997A9A86DD9F102C5D1311C /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
+		070C845939A22915BE7A68B95647F065 /* lang_sah.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sah.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sah.swift; sourceTree = "<group>"; };
+		076A351408829428D852126AF8B23DE6 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		07BA01BBEB870C4E24FD4F2AF5FD6E51 /* lang_pa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pa.swift; sourceTree = "<group>"; };
+		09201E36C419C90AD8C0F95F8DA56917 /* lang_zh_Hans_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_MO.swift; sourceTree = "<group>"; };
+		0BEBF20D05487D716461EA20512A9E2C /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		0C10C482C32E43EB400929E046359AA3 /* lang_gl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gl.swift; sourceTree = "<group>"; };
+		0E311C90FD7DF1EFD2B250B25EC7F6DC /* lang_is.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_is.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_is.swift; sourceTree = "<group>"; };
+		0E58AEE1E9564E96A329C88D04029053 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E876B12F632DF10297EA98D4851C7B4 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMIMEDocument.h; path = Source/GTMMIMEDocument.h; sourceTree = "<group>"; };
+		0FD5A0AE7EE5487E3C84831ABA18709B /* Pods_West_Deerfield_Township.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_West_Deerfield_Township.framework; path = "Pods-West Deerfield Township.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108ECF698BA25B6CD0DC2750EA65CE03 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		11B0C0451250197C2D95CB2CD26630C9 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		120A6EF17EE1D60880584CC48214C8C3 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Source/GTMGatherInputStream.h; sourceTree = "<group>"; };
+		13C7C5EED3C38C41F474AE52E7E5DF7A /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		13D510FE0CA37A1ED52944272C0473B0 /* lang_fy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fy.swift; sourceTree = "<group>"; };
+		14CE6B0F756F6FA9F7A6EAF4C9E9EC1C /* lang_se_FI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se_FI.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se_FI.swift; sourceTree = "<group>"; };
+		159AAB5E76891F7F4DD8F18FB20AF10E /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		166668F167F7056AC4BEB56F24CBE49F /* GTLRQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRQuery.m; path = Source/Objects/GTLRQuery.m; sourceTree = "<group>"; };
+		16902255CD449DE07D06472C5AB58F7D /* lang_sd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sd.swift; sourceTree = "<group>"; };
+		173FDB709A9CBD6A4D58E0246F989455 /* lang_es.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es.swift; sourceTree = "<group>"; };
+		1868A1E84BC1E25E2D07C62A729D9003 /* GoogleAPIClientForREST-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleAPIClientForREST-dummy.m"; sourceTree = "<group>"; };
+		18B2FFD1D16885305BDA8B757C411433 /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		1CAAEE80E71EC7C12A35640F38257224 /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
+		1D7054266EB69BCA63A2F07D4316957D /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
+		1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1F4EB4E4906D9F96570A184F1A0F22E7 /* lang_es_AR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_AR.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_AR.swift; sourceTree = "<group>"; };
+		1FEB9C5FF9B312BBB3ADF5D50565BDF8 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		206863B71CFE0A8EB27966D666FB70E9 /* lang_el.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_el.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_el.swift; sourceTree = "<group>"; };
+		20D0414E20E250FAE130F982BB1196B1 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		2112FB136E229B9E37C3E13ED1A3658B /* lang_hr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hr.swift; sourceTree = "<group>"; };
+		21F8691A32E820805ABFA58A4970555C /* GoogleAPIClientForREST-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClientForREST-umbrella.h"; sourceTree = "<group>"; };
+		22253C4C7C3878168D3215F55D620013 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229139A4CB4D9DC70749C553778A68E6 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		23B5C8BF9F8987EEDB04795C5D2625ED /* GTLRRuntimeCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRRuntimeCommon.m; path = Source/Objects/GTLRRuntimeCommon.m; sourceTree = "<group>"; };
+		250C187EA58972F60F888924DCD0776B /* lang_wae.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_wae.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_wae.swift; sourceTree = "<group>"; };
+		2759F9D8A125178D363DD3BEE819F556 /* lang_si.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_si.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_si.swift; sourceTree = "<group>"; };
+		29B2117B17B8AEA857552886037A6C15 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "Sources/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
+		29FE3BC56F8A7A0D2D973DED84B37EE0 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		2A5C8A6510995577DEE801225B2F081E /* lang_fur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fur.swift; sourceTree = "<group>"; };
+		2AE94189430D66BCB8D935E6AC97E496 /* lang_km.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_km.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_km.swift; sourceTree = "<group>"; };
+		2B5B77473F5CB05C399C84C1861BECD0 /* lang_ug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ug.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ug.swift; sourceTree = "<group>"; };
+		2BA9624CFB03F74FB333FB98D190C88D /* GTLRErrorObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRErrorObject.m; path = Source/Objects/GTLRErrorObject.m; sourceTree = "<group>"; };
+		2BA97C0684F8B22FAD0F6B68883A80D1 /* lang_zu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zu.swift; sourceTree = "<group>"; };
+		2C0ACF7AC18C7A0C466983A9AE8D6A1D /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		2C2A484A150E5E30AB63B02FB22DB97D /* GTLRDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDefines.h; path = Source/GTLRDefines.h; sourceTree = "<group>"; };
+		2D3B383F974522AF37D03866C24456C3 /* lang_gu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gu.swift; sourceTree = "<group>"; };
+		2D9DD15A5898882D142B1EA76545ACF8 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		2E8CB495C6045CAB4C4F790FFBC10735 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2EF36A3D79D315082E346FDBDFD0E4E5 /* lang_th.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_th.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_th.swift; sourceTree = "<group>"; };
+		3037F5689A030563D54FAC252DA322BC /* lang_ta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ta.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ta.swift; sourceTree = "<group>"; };
+		30A05A5EE7A80F74F3C2388B324877AE /* lang_be.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_be.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_be.swift; sourceTree = "<group>"; };
+		31208CFCAA9FC470216D166A0E548A37 /* GTLRRuntimeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRRuntimeCommon.h; path = Source/Objects/GTLRRuntimeCommon.h; sourceTree = "<group>"; };
+		31B71ADD466C66558A318902EE7529DD /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		3200D190054CB39E341D8DBF356745A5 /* lang_kea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kea.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kea.swift; sourceTree = "<group>"; };
+		3254CBFD31FDC097DE997E936C16E7B8 /* String+Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Parser.swift"; path = "Sources/SwiftDate/Foundation+Extras/String+Parser.swift"; sourceTree = "<group>"; };
+		32C268A4938F0728446DB706737790A4 /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = Sources/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
+		3353B7F4A244DEE5512D20EDE8B70198 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3391C427543340A23F7B8F23CBA8B16E /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		340F959428EA5C216343E2AADE998E9F /* lang_bsCyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bsCyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bsCyrl.swift; sourceTree = "<group>"; };
+		349195044FDFB35CE96C2CD68424C1B0 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		34BA6E8BF48FA0F3108C54AB99B0B0DB /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		36A4F4F417BDEDA96B3F2760CB74AF7D /* lang_fr_CA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr_CA.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr_CA.swift; sourceTree = "<group>"; };
+		38AABD1D9A104F2FA29F1060A3FF2787 /* GTLRCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendar.h; path = Source/GeneratedServices/Calendar/GTLRCalendar.h; sourceTree = "<group>"; };
+		39F45BBB11B126ACA5A662AD897278CF /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		3AF047B602CA8B95939D487650B78E21 /* lang_ur_IN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur_IN.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur_IN.swift; sourceTree = "<group>"; };
+		3C5C6B5F7172438B41B5966B39619E6F /* lang_fil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fil.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fil.swift; sourceTree = "<group>"; };
+		3D0A632626B6B2C1FD8A1949722B84F6 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		40521C4740907D2EB8B0E80E075D962C /* GTLRBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBase64.m; path = Source/Utilities/GTLRBase64.m; sourceTree = "<group>"; };
+		40667EF3E097BA0E5397987D1BDC43B5 /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = Sources/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		427E9491AC33BE37527ACA69630AB8D3 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		430E22718026A183D988C41970BAFF13 /* lang_ga.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ga.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ga.swift; sourceTree = "<group>"; };
+		437AB9FE35BADF5DB97BBC34625A479C /* GTLRFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRFramework.m; path = Source/Utilities/GTLRFramework.m; sourceTree = "<group>"; };
+		453883BAD93D580BA4A2DE0AAD18B8F5 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FF890D1BB8ADF473F3B5C16AB88DD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471692B83502CFCBD2F73BEBCB89C7A3 /* lang_or.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_or.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_or.swift; sourceTree = "<group>"; };
+		477ED18F11EC7B33748C7CF4889DCD1C /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		47922A744D39E95E946EEE93DA678B72 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		479FFCCFCC7F3185FC05AD715A7D3337 /* lang_sk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sk.swift; sourceTree = "<group>"; };
+		48D39355F90EF91DA84CE47C7D724620 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		495F902F199BC3696C15D887888880EA /* lang_hi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hi.swift; sourceTree = "<group>"; };
+		496D109E4CBEC7C2884C4ECFB81B3371 /* lang_sr_Latn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr_Latn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr_Latn.swift; sourceTree = "<group>"; };
+		4A7550ED88195ECB6D2966D41D8F0A47 /* lang_ksh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ksh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ksh.swift; sourceTree = "<group>"; };
+		4D44A25002E6C3A0FCD9C370B1D93331 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
+		4EC886B6C30A20EB71D13BBD9E37DB01 /* lang_ka.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ka.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ka.swift; sourceTree = "<group>"; };
+		4F0D0587C4CD039240AB28A4B4998BE8 /* lang_lt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lt.swift; sourceTree = "<group>"; };
+		4F91303633D586E3CE76692F99CF126B /* lang_fa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fa.swift; sourceTree = "<group>"; };
+		50832F943D60288D83B61B950027CFCD /* GoogleAPIClientForREST-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClientForREST-prefix.pch"; sourceTree = "<group>"; };
+		50A8E7211BD6A39D6623A8831DF764B2 /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = Sources/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
+		53D2113381E0035FBAA2C983A7254D18 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		53D928638A925AD96CD735BB38EC4A39 /* GTLRCalendarService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarService.m; path = Source/GeneratedServices/Calendar/GTLRCalendarService.m; sourceTree = "<group>"; };
+		54988AA0D13D1746622C4CC60B0F6637 /* lang_ne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ne.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ne.swift; sourceTree = "<group>"; };
+		54A623E20BC8E8B1712922215A09E998 /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "Sources/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
+		550BB9449A440FECA3AD7C60B872529C /* lang_ml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ml.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ml.swift; sourceTree = "<group>"; };
+		55EAECBD14990450AE48E3A2FF0E6304 /* GTLRDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRDateTime.m; path = Source/Objects/GTLRDateTime.m; sourceTree = "<group>"; };
+		5739CD9D4DED8B7E596BFB50BC93257C /* lang_uz_Cyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz_Cyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz_Cyrl.swift; sourceTree = "<group>"; };
+		5767F39A4A308FA3D87CC786A66050D4 /* lang_es_PY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_PY.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_PY.swift; sourceTree = "<group>"; };
+		5769DDB2EFE966286F240F76F69A2056 /* lang_es_MX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_MX.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_MX.swift; sourceTree = "<group>"; };
+		58991941148B3CAC76A8C86C787F2B41 /* lang_ar_AE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar_AE.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar_AE.swift; sourceTree = "<group>"; };
+		592CEB54404F57CB9158321F33E888F7 /* GTLRUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRUtilities.m; path = Source/Utilities/GTLRUtilities.m; sourceTree = "<group>"; };
+		5E71F4E1F84964F5A8B0EAB78F686447 /* lang_da.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_da.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_da.swift; sourceTree = "<group>"; };
+		611F56B4660D2F180F9F936982F1A966 /* GTLRDuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRDuration.m; path = Source/Objects/GTLRDuration.m; sourceTree = "<group>"; };
+		6138F3A5C5C782EB5494B4E997C71BE6 /* GTLRURITemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRURITemplate.m; path = Source/Utilities/GTLRURITemplate.m; sourceTree = "<group>"; };
+		613F323D1AF9E901A0216FEFDCAFDBBB /* GTLRObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRObject.m; path = Source/Objects/GTLRObject.m; sourceTree = "<group>"; };
+		62DDFA7518E2E38083BD677B3221BCA6 /* GTLRErrorObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRErrorObject.h; path = Source/Objects/GTLRErrorObject.h; sourceTree = "<group>"; };
+		6396C045E7D2E58C40944BCD65A0869D /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = Sources/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
+		63C141189EAADEC56A4B1EEA87095F27 /* Pods-West Deerfield Township-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-West Deerfield Township-acknowledgements.plist"; sourceTree = "<group>"; };
+		64E854D66DCE1BC7A55065589D694BFA /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = Sources/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
+		65E8ECE01D8731E4272B2109B9C5DC60 /* GTLRDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDuration.h; path = Source/Objects/GTLRDuration.h; sourceTree = "<group>"; };
+		6627D769B0058561EAC2805D0CF81C2A /* lang_yue_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hant.swift; sourceTree = "<group>"; };
+		66CF81206BD862742E597CA8BA41CBA2 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		68108E83C87AA429DE873201C5BD9490 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6825DE8038BB2C2135C7DF2EA7D917FB /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		68B525051F2471EDF98AE130096C5BD0 /* lang_lb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lb.swift; sourceTree = "<group>"; };
+		6A3B7BBC8C4458CA58A86D82082EF5F4 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		6A9AD8CDFD05D47CEAC0D56826AB5A36 /* lang_zh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh.swift; sourceTree = "<group>"; };
+		6B15B8AE50B5F2591874D24030FA0C4D /* lang_de.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_de.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_de.swift; sourceTree = "<group>"; };
+		6CA3158E0BF9A683094652EBCA5ADFED /* lang_kk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kk.swift; sourceTree = "<group>"; };
+		6D8A9B0C5097334424E1AFD56F6C0701 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMReadMonitorInputStream.h; path = Source/GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		6DB9F5FD0E2E64A40F4FF9A0293D554F /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
+		6FB4DD8C5FF2C2517E2A0A9E2395C957 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMReadMonitorInputStream.m; path = Source/GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		702478CD29A11936E5A3B0592A896423 /* lang_ar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar.swift; sourceTree = "<group>"; };
+		712CD5A7A04A214F934B9F7200BDB809 /* lang_hu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hu.swift; sourceTree = "<group>"; };
+		7161C27B1FD123956364F916216EDEA0 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/SwiftDate/Date/Date.swift; sourceTree = "<group>"; };
+		72C6E4DE21B36B74281B032F48E1349E /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		7310616FAE5EB27F5CBC3BFA73014B8C /* GTLRQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRQuery.h; path = Source/Objects/GTLRQuery.h; sourceTree = "<group>"; };
+		735039C6C87DF8462A52FD29DC772573 /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "Sources/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
+		73E3188598DE5928C4C0D11A447C5995 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7496837FD37F83FB0D178BF60E3F3224 /* GTLRCalendarObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarObjects.m; path = Source/GeneratedServices/Calendar/GTLRCalendarObjects.m; sourceTree = "<group>"; };
+		76855112FA5EEAE5FD31F55E4F119571 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		768BA9E0EE797A38DB9D699B1DF3632B /* Pods-West Deerfield Township-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-West Deerfield Township-frameworks.sh"; sourceTree = "<group>"; };
+		77E3EAA2B69ADFB9AB6FFF098F3686B3 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMGatherInputStream.m; path = Source/GTMGatherInputStream.m; sourceTree = "<group>"; };
+		794362AB956485D0F32156F8B572BD29 /* Pods-West Deerfield Township-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-West Deerfield Township-dummy.m"; sourceTree = "<group>"; };
+		7A7A85523AACC9AD86E7A0EF6D78A4CC /* lang_ee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ee.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ee.swift; sourceTree = "<group>"; };
+		7AC30DFFCB5DFAB8F04DFF8013E65716 /* lang_hy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hy.swift; sourceTree = "<group>"; };
+		7ADB3A06C96AECCCB075B2158900849B /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		7B161D9EF313D7C5F1870AB3669D7796 /* GoogleAPIClientForREST.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAPIClientForREST.xcconfig; sourceTree = "<group>"; };
+		7B5073126FFE3E11AE460ABAC57075DE /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		7C37C508CC766EE623DDFAE8D655FCAE /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		7C51BFDEF0F769F17161042407920E29 /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "Sources/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
+		7D689689B56B1F0FBDB746EBEAAE3C53 /* lang_mr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mr.swift; sourceTree = "<group>"; };
+		7D8CA874FE24C9A460B52E3E24AD2ABC /* lang_yi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yi.swift; sourceTree = "<group>"; };
+		7DA0EFD6CBF962CE2019E3B7FC429C64 /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "Sources/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
+		7E0E1E7DCA99298F732015B0833B0A62 /* lang_lv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lv.swift; sourceTree = "<group>"; };
+		7EF0DED571427FB787BF5178C533A0E4 /* GTLRBatchQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBatchQuery.m; path = Source/Objects/GTLRBatchQuery.m; sourceTree = "<group>"; };
+		800A7769A19CB5DFEF99C584AC9617C3 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		8042A1E9F64C34A31901CBCCC1BF962F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812805FE10AD7AE099E402B98C4A4471 /* lang_fo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fo.swift; sourceTree = "<group>"; };
+		82B748A349BB58D1A85A8165886C1991 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		837DDD7EC1BF100A92C71578E3B226F2 /* lang_mt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mt.swift; sourceTree = "<group>"; };
+		8417EB3C933D130741B3D15D00B32CEF /* lang_sq.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sq.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sq.swift; sourceTree = "<group>"; };
+		8503EA26601273814AA0C3F705A906A3 /* GTLRDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDateTime.h; path = Source/Objects/GTLRDateTime.h; sourceTree = "<group>"; };
+		8921F8902F8EC8DBB2C330E30500B6B0 /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+		8CF5E059456E87DBCB75A0F9CB222FAE /* lang_vi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_vi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_vi.swift; sourceTree = "<group>"; };
+		8D1B1D23D8AD6ECD428D3ECC97976B4C /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleAPIClientForREST.framework; path = GoogleAPIClientForREST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1FBB46AB9B86B58C439D7D5BECFFFB /* lang_es_US.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_US.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_US.swift; sourceTree = "<group>"; };
+		8DABE7AECA97D7D6F739F20761356435 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		8DB10F68BE8302B76BF1CEE97E4148EC /* lang_sr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr.swift; sourceTree = "<group>"; };
+		8EAE1D07BE5522801F0DA92D443DA362 /* lang_yue_Hans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hans.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hans.swift; sourceTree = "<group>"; };
+		9090C886885F8EAE297605B4898CE836 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		9233A2F629065B9D2159EC6EA3EDCE4C /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		92FE1400A345975280F8D45290463DE4 /* lang_ms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ms.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ms.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9460273D6C6764F6ABCFF6512F6B2817 /* GTLRBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBase64.h; path = Source/Utilities/GTLRBase64.h; sourceTree = "<group>"; };
+		95213D5355433BC2B6A12EC786378924 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		9674C12CA0D5597966F3932E86E48B4D /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		9681EEDEA1A354796857F142379B9E7B /* lang_cs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cs.swift; sourceTree = "<group>"; };
+		970933D3F819528AC0A297E0DB76E491 /* lang_dsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dsb.swift; sourceTree = "<group>"; };
+		97889DAEB7DE17AB0835E0504A7E7655 /* lang_hsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hsb.swift; sourceTree = "<group>"; };
+		9790C2710E24E1159ED5B44FC0133F27 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		9894FE504DD1769E3F46D83974457FFD /* lang_am.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_am.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_am.swift; sourceTree = "<group>"; };
+		98E495238C7B437DA885433218A6A9EC /* lang_zh_Hant_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_MO.swift; sourceTree = "<group>"; };
+		999F0EA0F22AE9CA3C873DD80DC2ACA8 /* lang_nb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nb.swift; sourceTree = "<group>"; };
+		99FB36FD58620F4E7E227893F461C17B /* lang_mn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mn.swift; sourceTree = "<group>"; };
+		9A4069C59D74A1E1D4C87F827A1E21A9 /* lang_zh_Hans_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_HK.swift; sourceTree = "<group>"; };
+		9AAED58DC1B277E30F1E92585B52E7FE /* lang_lo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lo.swift; sourceTree = "<group>"; };
+		9C6F5D505DD0651E9C6F948AE3A807E0 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		9CFE1FF05E2A09085848DCC9E5EC9A9D /* lang_ru.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ru.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ru.swift; sourceTree = "<group>"; };
+		9D567711FE258B835E0FD8E10374B7D2 /* GTLRUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRUtilities.h; path = Source/Utilities/GTLRUtilities.h; sourceTree = "<group>"; };
+		9E14BC1E4F7F9B3728DEF3C0B3801B08 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		A09DB19FE13AF3E60E4CA77D51FCC16C /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		A11CC82124ECD195BBBFC6900A458412 /* lang_dz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dz.swift; sourceTree = "<group>"; };
+		A42CBB44D80C67176478416F065BABBD /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		A51CE46E35650CFC437E80AEC2E86721 /* GTLRObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRObject.h; path = Source/Objects/GTLRObject.h; sourceTree = "<group>"; };
+		A59B2D113502E163D0AEDD732FD75CE7 /* lang_uk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uk.swift; sourceTree = "<group>"; };
+		A869EAF75C150E93926F96B0B58FFBA7 /* DateRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRepresentable.swift; path = Sources/SwiftDate/DateRepresentable.swift; sourceTree = "<group>"; };
+		A88FF87E4EC5AC532824F8F283277279 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2BED3629714DD965A8CA5E03649E1D /* Pods-West Deerfield Township.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-West Deerfield Township.modulemap"; sourceTree = "<group>"; };
+		AB9E6A010189A55E2114ACFDBE8B70BC /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = Sources/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
+		B19D7D54829A4EC4EA35D33D9270D2C2 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMIMEDocument.m; path = Source/GTMMIMEDocument.m; sourceTree = "<group>"; };
+		B20F847D841AB05CD5CD0608AA20FA8A /* lang_pl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pl.swift; sourceTree = "<group>"; };
+		B44F64073D3698E5FA29952EDF60A9A3 /* lang_az.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_az.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_az.swift; sourceTree = "<group>"; };
+		B459AD9DBD1F30F8EF6EDE62C44228AC /* lang_mk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mk.swift; sourceTree = "<group>"; };
+		B4D9D46724FC18D2F04282D279D287BF /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		B4ED01211B42EB8D32610CDD26691173 /* lang_tk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tk.swift; sourceTree = "<group>"; };
+		B4F12BDAD082907FB6577AEE64844D65 /* lang_br.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_br.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_br.swift; sourceTree = "<group>"; };
+		B6A48B03806D95FCB89F3144B9D5FD80 /* Pods-West Deerfield Township-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-West Deerfield Township-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6B35C81FD86489237434A69F985B894 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		B7071C416912F015744E6F93D064F042 /* lang_zh_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant.swift; sourceTree = "<group>"; };
+		B8E8A5622E3C64F6B110F265F9FBDA48 /* lang_sw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sw.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sw.swift; sourceTree = "<group>"; };
+		B9AFC8E8FDA52A4547FE061E495C1477 /* GTLRCalendarObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarObjects.h; path = Source/GeneratedServices/Calendar/GTLRCalendarObjects.h; sourceTree = "<group>"; };
+		B9B9D93DBBE39C10CDA47C97FEC00148 /* lang_se.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se.swift; sourceTree = "<group>"; };
+		B9CA39413F8D6CF0C70570CB63F2AF3E /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB2897772B485140E547E89966CD555 /* lang_jgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_jgo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_jgo.swift; sourceTree = "<group>"; };
+		BF75740E0C723BCEBDC39ADBFDC90817 /* lang_sl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sl.swift; sourceTree = "<group>"; };
+		C37BBDA888A9FD8879D36093C95DD8B7 /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = Sources/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
+		C4031A0E5201BC3937C9BD3A6B098AD0 /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "Sources/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
+		C425603EDC4FF7792FCBC48666F89AF7 /* lang_mzn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mzn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mzn.swift; sourceTree = "<group>"; };
+		C42789619DBC17A7CBE2D7717E415F32 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		C44E316764C51CDA6F0FC40A798E53ED /* lang_te.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_te.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_te.swift; sourceTree = "<group>"; };
+		C46E6AE18E05C55CC7FB2291429FC0F9 /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
+		C5C1BCE6CD3360401C03A682E2BFF993 /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		C6FAED7F75762EE3FCE74B27D42A45EA /* lang_eu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_eu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_eu.swift; sourceTree = "<group>"; };
+		C8B0CDF073ADD7A368FDE8263BFD9409 /* lang_id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_id.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_id.swift; sourceTree = "<group>"; };
+		C92DDDB56F9784411C90B6856153ABE1 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		C9A6D9F10652F298D7CF055D3F97C08C /* lang_bn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bn.swift; sourceTree = "<group>"; };
+		CAB0036F112FFCB97796C354AE600D39 /* lang_he.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_he.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_he.swift; sourceTree = "<group>"; };
+		CBBB2DF32D68C53E1990FF663866F358 /* lang_ps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ps.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ps.swift; sourceTree = "<group>"; };
+		CC42E860DACAF6BF9EC07748EBB6E3D7 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		CC6EBAD3947573BE9185BEB712EB548D /* lang_ti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ti.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ti.swift; sourceTree = "<group>"; };
+		CD0816ECF586D14A51C665E608DAD398 /* GTLRUploadParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRUploadParameters.m; path = Source/Objects/GTLRUploadParameters.m; sourceTree = "<group>"; };
+		CD15167470B39E6C834B3CF30FD1DEBB /* lang_ca.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ca.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ca.swift; sourceTree = "<group>"; };
+		CD65B07C5590CBE0ECD8B46057E0C1BC /* GTLRCalendarQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarQuery.m; path = Source/GeneratedServices/Calendar/GTLRCalendarQuery.m; sourceTree = "<group>"; };
+		CE3DBAC6757EE7DBAC484AC815B57FC9 /* lang_it.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_it.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_it.swift; sourceTree = "<group>"; };
+		CE42EC57ACFAA360B2C2E8207B37B25F /* Pods-West Deerfield Township.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-West Deerfield Township.debug.xcconfig"; sourceTree = "<group>"; };
+		CE502D5915324A587D376B0795FC9FC6 /* lang_ko.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ko.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ko.swift; sourceTree = "<group>"; };
+		CECC02517A45A671D3200F7D311F48E6 /* lang_tr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tr.swift; sourceTree = "<group>"; };
+		CF63D4291D96FE64D7E4DD8F5C5F0BC3 /* lang_zh_Hant_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_HK.swift; sourceTree = "<group>"; };
+		D038C3074190459A9D9452A9DC9167F0 /* lang_fr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr.swift; sourceTree = "<group>"; };
+		D0E248930B93F8FE87A5991C198911E2 /* lang_nl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nl.swift; sourceTree = "<group>"; };
+		D1C15178368209CE17EF0EFB06276C65 /* GTLRService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRService.h; path = Source/Objects/GTLRService.h; sourceTree = "<group>"; };
+		D2A0A510D658CD2EB358027E3BBE9171 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		D3898E659BED872CF45CE0FA24643F4D /* Pods-West Deerfield Township.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-West Deerfield Township.release.xcconfig"; sourceTree = "<group>"; };
+		D4491F166CCE6159D911DF893A999015 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Sources/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		D862133B35537B61A545111E62EFD6CE /* Pods-West Deerfield Township-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-West Deerfield Township-umbrella.h"; sourceTree = "<group>"; };
+		D876D3EE5697A34F346469D6D725C18C /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		D87F924FF90E4F0487518AD6AF072BBF /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		D8E83765FFFD907A5DC8EAA18AD80CCA /* GTLRBatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBatchResult.h; path = Source/Objects/GTLRBatchResult.h; sourceTree = "<group>"; };
+		D9A91BAF931FE8AE44325F3B0D33B072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA4D6A87147E54FC3B1356DF1C9EA41B /* lang_en.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_en.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_en.swift; sourceTree = "<group>"; };
+		DB5B3792EF92667233E8C8889E2F8B04 /* lang_kl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kl.swift; sourceTree = "<group>"; };
+		DBC8795FB56A53E7CA61F9A3B0931585 /* GTLRCalendarService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarService.h; path = Source/GeneratedServices/Calendar/GTLRCalendarService.h; sourceTree = "<group>"; };
+		DCBDC687088E738FB9F5593D1021C156 /* lang_gd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gd.swift; sourceTree = "<group>"; };
+		DDAC78D071923B6F9892D27B14EBA81F /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		DDCC5703D78026CC05CF0532DDD5144C /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = Sources/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
+		DDF5083197A74F5DF7BF7B5A8AA07637 /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
+		DF6163B3A744970BE93A3172D9D89AE6 /* GTLRBatchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBatchQuery.h; path = Source/Objects/GTLRBatchQuery.h; sourceTree = "<group>"; };
+		E0B961CF1D79836237A5054FA4F3E715 /* lang_zh_Hans_SG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_SG.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_SG.swift; sourceTree = "<group>"; };
+		E1BF81598F23302B877E34323E95FDF2 /* lang_uz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz.swift; sourceTree = "<group>"; };
+		E208B988DB92D7CA5CE3615E6D8BD094 /* lang_as.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_as.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_as.swift; sourceTree = "<group>"; };
+		E29FA76D6DAC4FCA758E30F7EDD989BF /* lang_ro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ro.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ro.swift; sourceTree = "<group>"; };
+		E2BEE7BAD4DB197334BAB345A5D5D6F4 /* lang_sv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sv.swift; sourceTree = "<group>"; };
+		E375288729B214EA7BDBCA0118686FFC /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
+		E3D7FE0D1C487BE9D22AF33E50C546B8 /* lang_af.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_af.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_af.swift; sourceTree = "<group>"; };
+		E4ABB8A702C88A0A4C735367286033D1 /* GTLRBatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBatchResult.m; path = Source/Objects/GTLRBatchResult.m; sourceTree = "<group>"; };
+		E5645522C77C320F22FAA0A88C32E63A /* lang_kn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kn.swift; sourceTree = "<group>"; };
+		E610EB299B29EC253ACF5E1BFACFD581 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
+		E6418FF47AB102200188EE9BE16CCD2D /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		E6522D88B8BA09103766FE7A84018DA7 /* GTLRUploadParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRUploadParameters.h; path = Source/Objects/GTLRUploadParameters.h; sourceTree = "<group>"; };
+		E79EFF4EADF0ED6E78089E2FA5C882AF /* lang_nn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nn.swift; sourceTree = "<group>"; };
+		E7E85F29109A699C5BB6B470AAC4E8D9 /* lang_bs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bs.swift; sourceTree = "<group>"; };
+		E89021C3E48CC74F2D6C4FF19FB1F800 /* Pods-West Deerfield Township-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-West Deerfield Township-resources.sh"; sourceTree = "<group>"; };
+		E9AE7C92682CB9715E37A24DED2284C6 /* GoogleAPIClientForREST.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleAPIClientForREST.modulemap; sourceTree = "<group>"; };
+		E9C9AD60B61938F4D2594D285F9D332E /* lang_ja.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ja.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ja.swift; sourceTree = "<group>"; };
+		EA03E9AFE9F0A883C49DE765F886BF03 /* lang_et.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_et.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_et.swift; sourceTree = "<group>"; };
+		EB818A311AAEDF9641FBAAFA8262475C /* GTLRURITemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRURITemplate.h; path = Source/Utilities/GTLRURITemplate.h; sourceTree = "<group>"; };
+		EB8EB8E9D5B0497080B490A3C0DFB971 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		EC5656E968DBA4A739645966BECB0963 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		EC7C9B1AA07D9603818866E8B5130B61 /* GTLRCalendarQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarQuery.h; path = Source/GeneratedServices/Calendar/GTLRCalendarQuery.h; sourceTree = "<group>"; };
+		EDB2ACF6CD0483ED43C5124FCC690C1E /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		F0796813AB892688679A2B414DD6CB19 /* lang_to.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_to.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_to.swift; sourceTree = "<group>"; };
+		F323DF682DC02D2A49B4FAB0B9A5B5A4 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		F45316E1ED809C77E9094AC1411F3D17 /* lang_my.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_my.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_my.swift; sourceTree = "<group>"; };
+		F4560CF58E8C364BBB6DCCE7193F267D /* lang_fi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fi.swift; sourceTree = "<group>"; };
+		FA8D78E3D49BBB306C7003045CC6C1FE /* lang_ur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur.swift; sourceTree = "<group>"; };
+		FDB724CF8BDE12A62A8C013074A94428 /* lang_kok.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kok.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kok.swift; sourceTree = "<group>"; };
+		FE7FF6E0177321379339047A0883D09F /* lang_bg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bg.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bg.swift; sourceTree = "<group>"; };
+		FEB8179BC55D07E0B0C0B65F6F070223 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
+		FED714863C7C7333E738407E76ED5C0A /* lang_cy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1460E1383DAE91ED0435D21FFC46825E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2C0389A76F48203FADA172CB025BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55886533D75720BE05629F82D3C96D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B719E10E0C2BDF60677298E5DE3F54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FBFA4721A1C6EB9912661F1FDE8F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51851AD40C478E69AF6E5B2FF6416B4A /* Foundation.framework in Frameworks */,
+				339A0D7FF59B8B46966ACCF8DA8EE46A /* GTMSessionFetcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DEE70D3AE457CB8E8553F73B75BFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD167FD7CCAE9D5A84252096DF0A5BA /* Foundation.framework in Frameworks */,
+				E064011AA68E40CEEE93CAF4532211DA /* QuartzCore.framework in Frameworks */,
+				7A8B0A3D45337E904FA69BB89D644CCE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B796B9A0A5521361B3EFAE54CF789A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EE3CA923B89220FDCD6E1025757228 /* Foundation.framework in Frameworks */,
+				352B4751246CC001F3E65F507BEA3707 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEEA87B8F7A716BC6099102EFC8CB2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68108E83C87AA429DE873201C5BD9490 /* Info.plist */,
+				18B2FFD1D16885305BDA8B757C411433 /* SwiftDate.modulemap */,
+				29FE3BC56F8A7A0D2D973DED84B37EE0 /* SwiftDate.xcconfig */,
+				8921F8902F8EC8DBB2C330E30500B6B0 /* SwiftDate-dummy.m */,
+				6825DE8038BB2C2135C7DF2EA7D917FB /* SwiftDate-prefix.pch */,
+				9090C886885F8EAE297605B4898CE836 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		103E5DD97A46BE3C337936FF82EBD269 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9460273D6C6764F6ABCFF6512F6B2817 /* GTLRBase64.h */,
+				40521C4740907D2EB8B0E80E075D962C /* GTLRBase64.m */,
+				DF6163B3A744970BE93A3172D9D89AE6 /* GTLRBatchQuery.h */,
+				7EF0DED571427FB787BF5178C533A0E4 /* GTLRBatchQuery.m */,
+				D8E83765FFFD907A5DC8EAA18AD80CCA /* GTLRBatchResult.h */,
+				E4ABB8A702C88A0A4C735367286033D1 /* GTLRBatchResult.m */,
+				8503EA26601273814AA0C3F705A906A3 /* GTLRDateTime.h */,
+				55EAECBD14990450AE48E3A2FF0E6304 /* GTLRDateTime.m */,
+				2C2A484A150E5E30AB63B02FB22DB97D /* GTLRDefines.h */,
+				65E8ECE01D8731E4272B2109B9C5DC60 /* GTLRDuration.h */,
+				611F56B4660D2F180F9F936982F1A966 /* GTLRDuration.m */,
+				62DDFA7518E2E38083BD677B3221BCA6 /* GTLRErrorObject.h */,
+				2BA9624CFB03F74FB333FB98D190C88D /* GTLRErrorObject.m */,
+				01A4B9E884E1EE4511E9F2EAA964CF77 /* GTLRFramework.h */,
+				437AB9FE35BADF5DB97BBC34625A479C /* GTLRFramework.m */,
+				A51CE46E35650CFC437E80AEC2E86721 /* GTLRObject.h */,
+				613F323D1AF9E901A0216FEFDCAFDBBB /* GTLRObject.m */,
+				7310616FAE5EB27F5CBC3BFA73014B8C /* GTLRQuery.h */,
+				166668F167F7056AC4BEB56F24CBE49F /* GTLRQuery.m */,
+				31208CFCAA9FC470216D166A0E548A37 /* GTLRRuntimeCommon.h */,
+				23B5C8BF9F8987EEDB04795C5D2625ED /* GTLRRuntimeCommon.m */,
+				D1C15178368209CE17EF0EFB06276C65 /* GTLRService.h */,
+				00545BD24642EFCEE423EB7C55F18D01 /* GTLRService.m */,
+				E6522D88B8BA09103766FE7A84018DA7 /* GTLRUploadParameters.h */,
+				CD0816ECF586D14A51C665E608DAD398 /* GTLRUploadParameters.m */,
+				EB818A311AAEDF9641FBAAFA8262475C /* GTLRURITemplate.h */,
+				6138F3A5C5C782EB5494B4E997C71BE6 /* GTLRURITemplate.m */,
+				9D567711FE258B835E0FD8E10374B7D2 /* GTLRUtilities.h */,
+				592CEB54404F57CB9158321F33E888F7 /* GTLRUtilities.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1AF59F849903F984FDED674B461FCE16 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				20D0414E20E250FAE130F982BB1196B1 /* FSCalendar.h */,
+				66CF81206BD862742E597CA8BA41CBA2 /* FSCalendar.m */,
+				48D39355F90EF91DA84CE47C7D724620 /* FSCalendarAppearance.h */,
+				76855112FA5EEAE5FD31F55E4F119571 /* FSCalendarAppearance.m */,
+				8DABE7AECA97D7D6F739F20761356435 /* FSCalendarCalculator.h */,
+				DDAC78D071923B6F9892D27B14EBA81F /* FSCalendarCalculator.m */,
+				7C37C508CC766EE623DDFAE8D655FCAE /* FSCalendarCell.h */,
+				EB8EB8E9D5B0497080B490A3C0DFB971 /* FSCalendarCell.m */,
+				9C6F5D505DD0651E9C6F948AE3A807E0 /* FSCalendarCollectionView.h */,
+				39F45BBB11B126ACA5A662AD897278CF /* FSCalendarCollectionView.m */,
+				477ED18F11EC7B33748C7CF4889DCD1C /* FSCalendarCollectionViewLayout.h */,
+				31B71ADD466C66558A318902EE7529DD /* FSCalendarCollectionViewLayout.m */,
+				9233A2F629065B9D2159EC6EA3EDCE4C /* FSCalendarConstants.h */,
+				B4D9D46724FC18D2F04282D279D287BF /* FSCalendarConstants.m */,
+				2C0ACF7AC18C7A0C466983A9AE8D6A1D /* FSCalendarDelegationFactory.h */,
+				95213D5355433BC2B6A12EC786378924 /* FSCalendarDelegationFactory.m */,
+				2D9DD15A5898882D142B1EA76545ACF8 /* FSCalendarDelegationProxy.h */,
+				C92DDDB56F9784411C90B6856153ABE1 /* FSCalendarDelegationProxy.m */,
+				47922A744D39E95E946EEE93DA678B72 /* FSCalendarDynamicHeader.h */,
+				108ECF698BA25B6CD0DC2750EA65CE03 /* FSCalendarExtensions.h */,
+				349195044FDFB35CE96C2CD68424C1B0 /* FSCalendarExtensions.m */,
+				9674C12CA0D5597966F3932E86E48B4D /* FSCalendarHeaderView.h */,
+				7ADB3A06C96AECCCB075B2158900849B /* FSCalendarHeaderView.m */,
+				0BEBF20D05487D716461EA20512A9E2C /* FSCalendarSeparatorDecorationView.h */,
+				159AAB5E76891F7F4DD8F18FB20AF10E /* FSCalendarSeparatorDecorationView.m */,
+				53D2113381E0035FBAA2C983A7254D18 /* FSCalendarStickyHeader.h */,
+				427E9491AC33BE37527ACA69630AB8D3 /* FSCalendarStickyHeader.m */,
+				D876D3EE5697A34F346469D6D725C18C /* FSCalendarTransitionCoordinator.h */,
+				72C6E4DE21B36B74281B032F48E1349E /* FSCalendarTransitionCoordinator.m */,
+				7B5073126FFE3E11AE460ABAC57075DE /* FSCalendarWeekdayView.h */,
+				1FEB9C5FF9B312BBB3ADF5D50565BDF8 /* FSCalendarWeekdayView.m */,
+				A51DA87A6C4B47520BF37057F463375A /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		396B0173395B2877B33206ACD36F3810 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				D5254DF1E09BA1BC3CA51C0D7D33B288 /* Core */,
+				3F632F7CAAFFC8FB316ABDB8B9788996 /* Full */,
+				D9C951AC30EA2592DA1D5473B5F14F84 /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		3F632F7CAAFFC8FB316ABDB8B9788996 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				120A6EF17EE1D60880584CC48214C8C3 /* GTMGatherInputStream.h */,
+				77E3EAA2B69ADFB9AB6FFF098F3686B3 /* GTMGatherInputStream.m */,
+				0E876B12F632DF10297EA98D4851C7B4 /* GTMMIMEDocument.h */,
+				B19D7D54829A4EC4EA35D33D9270D2C2 /* GTMMIMEDocument.m */,
+				6D8A9B0C5097334424E1AFD56F6C0701 /* GTMReadMonitorInputStream.h */,
+				6FB4DD8C5FF2C2517E2A0A9E2395C957 /* GTMReadMonitorInputStream.m */,
+			);
+			name = Full;
+			sourceTree = "<group>";
+		};
+		46C1D5D6C7A70264228D30F78ACDAC04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE7C92682CB9715E37A24DED2284C6 /* GoogleAPIClientForREST.modulemap */,
+				7B161D9EF313D7C5F1870AB3669D7796 /* GoogleAPIClientForREST.xcconfig */,
+				1868A1E84BC1E25E2D07C62A729D9003 /* GoogleAPIClientForREST-dummy.m */,
+				50832F943D60288D83B61B950027CFCD /* GoogleAPIClientForREST-prefix.pch */,
+				21F8691A32E820805ABFA58A4970555C /* GoogleAPIClientForREST-umbrella.h */,
+				45FF890D1BB8ADF473F3B5C16AB88DD3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAPIClientForREST";
+			sourceTree = "<group>";
+		};
+		542E2467C51D31CAEEF8DA3C6A1F34C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B216A70506AEED43112750C59014B5C3 /* Pods-West Deerfield Township */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79E7569E5A2A650D14376B4376B61AC0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1E68DD15721BB56D0829C69966C4431C /* Foundation.framework */,
+				73E3188598DE5928C4C0D11A447C5995 /* QuartzCore.framework */,
+				2E8CB495C6045CAB4C4F790FFBC10735 /* Security.framework */,
+				D9A91BAF931FE8AE44325F3B0D33B072 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A4D09AE356D2A30C03C178BF9536C0C0 /* Frameworks */,
+				C960A4A2B44ED282A944BDC2B7F30EEF /* Pods */,
+				D51B6097ADD2E09C413F6D9B01CCE103 /* Products */,
+				542E2467C51D31CAEEF8DA3C6A1F34C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC0A691DE8D6E47F10611BA942930E7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				38AABD1D9A104F2FA29F1060A3FF2787 /* GTLRCalendar.h */,
+				B9AFC8E8FDA52A4547FE061E495C1477 /* GTLRCalendarObjects.h */,
+				7496837FD37F83FB0D178BF60E3F3224 /* GTLRCalendarObjects.m */,
+				EC7C9B1AA07D9603818866E8B5130B61 /* GTLRCalendarQuery.h */,
+				CD65B07C5590CBE0ECD8B46057E0C1BC /* GTLRCalendarQuery.m */,
+				DBC8795FB56A53E7CA61F9A3B0931585 /* GTLRCalendarService.h */,
+				53D928638A925AD96CD735BB38EC4A39 /* GTLRCalendarService.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		A4D09AE356D2A30C03C178BF9536C0C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453883BAD93D580BA4A2DE0AAD18B8F5 /* GTMSessionFetcher.framework */,
+				79E7569E5A2A650D14376B4376B61AC0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51DA87A6C4B47520BF37057F463375A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B35C81FD86489237434A69F985B894 /* FSCalendar.modulemap */,
+				34BA6E8BF48FA0F3108C54AB99B0B0DB /* FSCalendar.xcconfig */,
+				3391C427543340A23F7B8F23CBA8B16E /* FSCalendar-dummy.m */,
+				EC5656E968DBA4A739645966BECB0963 /* FSCalendar-prefix.pch */,
+				9790C2710E24E1159ED5B44FC0133F27 /* FSCalendar-umbrella.h */,
+				A88FF87E4EC5AC532824F8F283277279 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		A631E83130402A338974836F0445571E /* GoogleAPIClientForREST */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0A691DE8D6E47F10611BA942930E7 /* Calendar */,
+				103E5DD97A46BE3C337936FF82EBD269 /* Core */,
+				46C1D5D6C7A70264228D30F78ACDAC04 /* Support Files */,
+			);
+			name = GoogleAPIClientForREST;
+			path = GoogleAPIClientForREST;
+			sourceTree = "<group>";
+		};
+		AB45EC0B79B987739AB29B1F5CEA2F6C /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				6396C045E7D2E58C40944BCD65A0869D /* AssociatedValues.swift */,
+				D4491F166CCE6159D911DF893A999015 /* Calendars.swift */,
+				E375288729B214EA7BDBCA0118686FFC /* Commons.swift */,
+				7161C27B1FD123956364F916216EDEA0 /* Date.swift */,
+				1CAAEE80E71EC7C12A35640F38257224 /* Date+Compare.swift */,
+				060BD266F997A9A86DD9F102C5D1311C /* Date+Components.swift */,
+				7DA0EFD6CBF962CE2019E3B7FC429C64 /* Date+Create.swift */,
+				DDF5083197A74F5DF7BF7B5A8AA07637 /* Date+Math.swift */,
+				29B2117B17B8AEA857552886037A6C15 /* DateComponents+Extras.swift */,
+				FEB8179BC55D07E0B0C0B65F6F070223 /* DateInRegion.swift */,
+				C5C1BCE6CD3360401C03A682E2BFF993 /* DateInRegion+Compare.swift */,
+				E6418FF47AB102200188EE9BE16CCD2D /* DateInRegion+Components.swift */,
+				C46E6AE18E05C55CC7FB2291429FC0F9 /* DateInRegion+Create.swift */,
+				800A7769A19CB5DFEF99C584AC9617C3 /* DateInRegion+Math.swift */,
+				A869EAF75C150E93926F96B0B58FFBA7 /* DateRepresentable.swift */,
+				32C268A4938F0728446DB706737790A4 /* DotNetParserFormatter.swift */,
+				7C51BFDEF0F769F17161042407920E29 /* Formatter+Protocols.swift */,
+				735039C6C87DF8462A52FD29DC772573 /* Int+DateComponents.swift */,
+				AB9E6A010189A55E2114ACFDBE8B70BC /* ISOFormatter.swift */,
+				64E854D66DCE1BC7A55065589D694BFA /* ISOParser.swift */,
+				E3D7FE0D1C487BE9D22AF33E50C546B8 /* lang_af.swift */,
+				9894FE504DD1769E3F46D83974457FFD /* lang_am.swift */,
+				702478CD29A11936E5A3B0592A896423 /* lang_ar.swift */,
+				58991941148B3CAC76A8C86C787F2B41 /* lang_ar_AE.swift */,
+				E208B988DB92D7CA5CE3615E6D8BD094 /* lang_as.swift */,
+				B44F64073D3698E5FA29952EDF60A9A3 /* lang_az.swift */,
+				30A05A5EE7A80F74F3C2388B324877AE /* lang_be.swift */,
+				FE7FF6E0177321379339047A0883D09F /* lang_bg.swift */,
+				C9A6D9F10652F298D7CF055D3F97C08C /* lang_bn.swift */,
+				B4F12BDAD082907FB6577AEE64844D65 /* lang_br.swift */,
+				E7E85F29109A699C5BB6B470AAC4E8D9 /* lang_bs.swift */,
+				340F959428EA5C216343E2AADE998E9F /* lang_bsCyrl.swift */,
+				CD15167470B39E6C834B3CF30FD1DEBB /* lang_ca.swift */,
+				9681EEDEA1A354796857F142379B9E7B /* lang_cs.swift */,
+				FED714863C7C7333E738407E76ED5C0A /* lang_cy.swift */,
+				5E71F4E1F84964F5A8B0EAB78F686447 /* lang_da.swift */,
+				6B15B8AE50B5F2591874D24030FA0C4D /* lang_de.swift */,
+				970933D3F819528AC0A297E0DB76E491 /* lang_dsb.swift */,
+				A11CC82124ECD195BBBFC6900A458412 /* lang_dz.swift */,
+				7A7A85523AACC9AD86E7A0EF6D78A4CC /* lang_ee.swift */,
+				206863B71CFE0A8EB27966D666FB70E9 /* lang_el.swift */,
+				DA4D6A87147E54FC3B1356DF1C9EA41B /* lang_en.swift */,
+				173FDB709A9CBD6A4D58E0246F989455 /* lang_es.swift */,
+				1F4EB4E4906D9F96570A184F1A0F22E7 /* lang_es_AR.swift */,
+				5769DDB2EFE966286F240F76F69A2056 /* lang_es_MX.swift */,
+				5767F39A4A308FA3D87CC786A66050D4 /* lang_es_PY.swift */,
+				8D1FBB46AB9B86B58C439D7D5BECFFFB /* lang_es_US.swift */,
+				EA03E9AFE9F0A883C49DE765F886BF03 /* lang_et.swift */,
+				C6FAED7F75762EE3FCE74B27D42A45EA /* lang_eu.swift */,
+				4F91303633D586E3CE76692F99CF126B /* lang_fa.swift */,
+				F4560CF58E8C364BBB6DCCE7193F267D /* lang_fi.swift */,
+				3C5C6B5F7172438B41B5966B39619E6F /* lang_fil.swift */,
+				812805FE10AD7AE099E402B98C4A4471 /* lang_fo.swift */,
+				D038C3074190459A9D9452A9DC9167F0 /* lang_fr.swift */,
+				36A4F4F417BDEDA96B3F2760CB74AF7D /* lang_fr_CA.swift */,
+				2A5C8A6510995577DEE801225B2F081E /* lang_fur.swift */,
+				13D510FE0CA37A1ED52944272C0473B0 /* lang_fy.swift */,
+				430E22718026A183D988C41970BAFF13 /* lang_ga.swift */,
+				DCBDC687088E738FB9F5593D1021C156 /* lang_gd.swift */,
+				0C10C482C32E43EB400929E046359AA3 /* lang_gl.swift */,
+				2D3B383F974522AF37D03866C24456C3 /* lang_gu.swift */,
+				CAB0036F112FFCB97796C354AE600D39 /* lang_he.swift */,
+				495F902F199BC3696C15D887888880EA /* lang_hi.swift */,
+				2112FB136E229B9E37C3E13ED1A3658B /* lang_hr.swift */,
+				97889DAEB7DE17AB0835E0504A7E7655 /* lang_hsb.swift */,
+				712CD5A7A04A214F934B9F7200BDB809 /* lang_hu.swift */,
+				7AC30DFFCB5DFAB8F04DFF8013E65716 /* lang_hy.swift */,
+				C8B0CDF073ADD7A368FDE8263BFD9409 /* lang_id.swift */,
+				0E311C90FD7DF1EFD2B250B25EC7F6DC /* lang_is.swift */,
+				CE3DBAC6757EE7DBAC484AC815B57FC9 /* lang_it.swift */,
+				E9C9AD60B61938F4D2594D285F9D332E /* lang_ja.swift */,
+				BCB2897772B485140E547E89966CD555 /* lang_jgo.swift */,
+				4EC886B6C30A20EB71D13BBD9E37DB01 /* lang_ka.swift */,
+				3200D190054CB39E341D8DBF356745A5 /* lang_kea.swift */,
+				6CA3158E0BF9A683094652EBCA5ADFED /* lang_kk.swift */,
+				DB5B3792EF92667233E8C8889E2F8B04 /* lang_kl.swift */,
+				2AE94189430D66BCB8D935E6AC97E496 /* lang_km.swift */,
+				E5645522C77C320F22FAA0A88C32E63A /* lang_kn.swift */,
+				CE502D5915324A587D376B0795FC9FC6 /* lang_ko.swift */,
+				FDB724CF8BDE12A62A8C013074A94428 /* lang_kok.swift */,
+				4A7550ED88195ECB6D2966D41D8F0A47 /* lang_ksh.swift */,
+				01809BE06F91DEB0AC0094D9CB3A6522 /* lang_ky.swift */,
+				68B525051F2471EDF98AE130096C5BD0 /* lang_lb.swift */,
+				01B806B373F007C6D365CAD37006F04F /* lang_lkt.swift */,
+				9AAED58DC1B277E30F1E92585B52E7FE /* lang_lo.swift */,
+				4F0D0587C4CD039240AB28A4B4998BE8 /* lang_lt.swift */,
+				7E0E1E7DCA99298F732015B0833B0A62 /* lang_lv.swift */,
+				B459AD9DBD1F30F8EF6EDE62C44228AC /* lang_mk.swift */,
+				550BB9449A440FECA3AD7C60B872529C /* lang_ml.swift */,
+				99FB36FD58620F4E7E227893F461C17B /* lang_mn.swift */,
+				7D689689B56B1F0FBDB746EBEAAE3C53 /* lang_mr.swift */,
+				92FE1400A345975280F8D45290463DE4 /* lang_ms.swift */,
+				837DDD7EC1BF100A92C71578E3B226F2 /* lang_mt.swift */,
+				F45316E1ED809C77E9094AC1411F3D17 /* lang_my.swift */,
+				C425603EDC4FF7792FCBC48666F89AF7 /* lang_mzn.swift */,
+				999F0EA0F22AE9CA3C873DD80DC2ACA8 /* lang_nb.swift */,
+				54988AA0D13D1746622C4CC60B0F6637 /* lang_ne.swift */,
+				D0E248930B93F8FE87A5991C198911E2 /* lang_nl.swift */,
+				E79EFF4EADF0ED6E78089E2FA5C882AF /* lang_nn.swift */,
+				471692B83502CFCBD2F73BEBCB89C7A3 /* lang_or.swift */,
+				07BA01BBEB870C4E24FD4F2AF5FD6E51 /* lang_pa.swift */,
+				B20F847D841AB05CD5CD0608AA20FA8A /* lang_pl.swift */,
+				CBBB2DF32D68C53E1990FF663866F358 /* lang_ps.swift */,
+				05503C651680B0A8B05E83BAF7847683 /* lang_pt.swift */,
+				E29FA76D6DAC4FCA758E30F7EDD989BF /* lang_ro.swift */,
+				9CFE1FF05E2A09085848DCC9E5EC9A9D /* lang_ru.swift */,
+				070C845939A22915BE7A68B95647F065 /* lang_sah.swift */,
+				16902255CD449DE07D06472C5AB58F7D /* lang_sd.swift */,
+				B9B9D93DBBE39C10CDA47C97FEC00148 /* lang_se.swift */,
+				14CE6B0F756F6FA9F7A6EAF4C9E9EC1C /* lang_se_FI.swift */,
+				2759F9D8A125178D363DD3BEE819F556 /* lang_si.swift */,
+				479FFCCFCC7F3185FC05AD715A7D3337 /* lang_sk.swift */,
+				BF75740E0C723BCEBDC39ADBFDC90817 /* lang_sl.swift */,
+				8417EB3C933D130741B3D15D00B32CEF /* lang_sq.swift */,
+				8DB10F68BE8302B76BF1CEE97E4148EC /* lang_sr.swift */,
+				496D109E4CBEC7C2884C4ECFB81B3371 /* lang_sr_Latn.swift */,
+				E2BEE7BAD4DB197334BAB345A5D5D6F4 /* lang_sv.swift */,
+				B8E8A5622E3C64F6B110F265F9FBDA48 /* lang_sw.swift */,
+				3037F5689A030563D54FAC252DA322BC /* lang_ta.swift */,
+				C44E316764C51CDA6F0FC40A798E53ED /* lang_te.swift */,
+				2EF36A3D79D315082E346FDBDFD0E4E5 /* lang_th.swift */,
+				CC6EBAD3947573BE9185BEB712EB548D /* lang_ti.swift */,
+				B4ED01211B42EB8D32610CDD26691173 /* lang_tk.swift */,
+				F0796813AB892688679A2B414DD6CB19 /* lang_to.swift */,
+				CECC02517A45A671D3200F7D311F48E6 /* lang_tr.swift */,
+				2B5B77473F5CB05C399C84C1861BECD0 /* lang_ug.swift */,
+				A59B2D113502E163D0AEDD732FD75CE7 /* lang_uk.swift */,
+				FA8D78E3D49BBB306C7003045CC6C1FE /* lang_ur.swift */,
+				3AF047B602CA8B95939D487650B78E21 /* lang_ur_IN.swift */,
+				E1BF81598F23302B877E34323E95FDF2 /* lang_uz.swift */,
+				5739CD9D4DED8B7E596BFB50BC93257C /* lang_uz_Cyrl.swift */,
+				8CF5E059456E87DBCB75A0F9CB222FAE /* lang_vi.swift */,
+				250C187EA58972F60F888924DCD0776B /* lang_wae.swift */,
+				7D8CA874FE24C9A460B52E3E24AD2ABC /* lang_yi.swift */,
+				8EAE1D07BE5522801F0DA92D443DA362 /* lang_yue_Hans.swift */,
+				6627D769B0058561EAC2805D0CF81C2A /* lang_yue_Hant.swift */,
+				6A9AD8CDFD05D47CEAC0D56826AB5A36 /* lang_zh.swift */,
+				9A4069C59D74A1E1D4C87F827A1E21A9 /* lang_zh_Hans_HK.swift */,
+				09201E36C419C90AD8C0F95F8DA56917 /* lang_zh_Hans_MO.swift */,
+				E0B961CF1D79836237A5054FA4F3E715 /* lang_zh_Hans_SG.swift */,
+				B7071C416912F015744E6F93D064F042 /* lang_zh_Hant.swift */,
+				CF63D4291D96FE64D7E4DD8F5C5F0BC3 /* lang_zh_Hant_HK.swift */,
+				98E495238C7B437DA885433218A6A9EC /* lang_zh_Hant_MO.swift */,
+				2BA97C0684F8B22FAD0F6B68883A80D1 /* lang_zu.swift */,
+				40667EF3E097BA0E5397987D1BDC43B5 /* Locales.swift */,
+				E610EB299B29EC253ACF5E1BFACFD581 /* Region.swift */,
+				6DB9F5FD0E2E64A40F4FF9A0293D554F /* RelativeFormatter.swift */,
+				1D7054266EB69BCA63A2F07D4316957D /* RelativeFormatter+Style.swift */,
+				3254CBFD31FDC097DE997E936C16E7B8 /* String+Parser.swift */,
+				DDCC5703D78026CC05CF0532DDD5144C /* SwiftDate.swift */,
+				C4031A0E5201BC3937C9BD3A6B098AD0 /* TimeInterval+Formatter.swift */,
+				50A8E7211BD6A39D6623A8831DF764B2 /* TimePeriod.swift */,
+				54A623E20BC8E8B1712922215A09E998 /* TimePeriod+Support.swift */,
+				A42CBB44D80C67176478416F065BABBD /* TimePeriodChain.swift */,
+				229139A4CB4D9DC70749C553778A68E6 /* TimePeriodCollection.swift */,
+				A09DB19FE13AF3E60E4CA77D51FCC16C /* TimePeriodGroup.swift */,
+				C37BBDA888A9FD8879D36093C95DD8B7 /* TimePeriodProtocol.swift */,
+				4D44A25002E6C3A0FCD9C370B1D93331 /* Zones.swift */,
+				0BEEA87B8F7A716BC6099102EFC8CB2D /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		B216A70506AEED43112750C59014B5C3 /* Pods-West Deerfield Township */ = {
+			isa = PBXGroup;
+			children = (
+				8042A1E9F64C34A31901CBCCC1BF962F /* Info.plist */,
+				AB2BED3629714DD965A8CA5E03649E1D /* Pods-West Deerfield Township.modulemap */,
+				B6A48B03806D95FCB89F3144B9D5FD80 /* Pods-West Deerfield Township-acknowledgements.markdown */,
+				63C141189EAADEC56A4B1EEA87095F27 /* Pods-West Deerfield Township-acknowledgements.plist */,
+				794362AB956485D0F32156F8B572BD29 /* Pods-West Deerfield Township-dummy.m */,
+				768BA9E0EE797A38DB9D699B1DF3632B /* Pods-West Deerfield Township-frameworks.sh */,
+				E89021C3E48CC74F2D6C4FF19FB1F800 /* Pods-West Deerfield Township-resources.sh */,
+				D862133B35537B61A545111E62EFD6CE /* Pods-West Deerfield Township-umbrella.h */,
+				CE42EC57ACFAA360B2C2E8207B37B25F /* Pods-West Deerfield Township.debug.xcconfig */,
+				D3898E659BED872CF45CE0FA24643F4D /* Pods-West Deerfield Township.release.xcconfig */,
+			);
+			name = "Pods-West Deerfield Township";
+			path = "Target Support Files/Pods-West Deerfield Township";
+			sourceTree = "<group>";
+		};
+		C960A4A2B44ED282A944BDC2B7F30EEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF59F849903F984FDED674B461FCE16 /* FSCalendar */,
+				A631E83130402A338974836F0445571E /* GoogleAPIClientForREST */,
+				396B0173395B2877B33206ACD36F3810 /* GTMSessionFetcher */,
+				AB45EC0B79B987739AB29B1F5CEA2F6C /* SwiftDate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D51B6097ADD2E09C413F6D9B01CCE103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3353B7F4A244DEE5512D20EDE8B70198 /* FSCalendar.framework */,
+				8D1B1D23D8AD6ECD428D3ECC97976B4C /* GoogleAPIClientForREST.framework */,
+				22253C4C7C3878168D3215F55D620013 /* GTMSessionFetcher.framework */,
+				0FD5A0AE7EE5487E3C84831ABA18709B /* Pods_West_Deerfield_Township.framework */,
+				B9CA39413F8D6CF0C70570CB63F2AF3E /* SwiftDate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5254DF1E09BA1BC3CA51C0D7D33B288 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F323DF682DC02D2A49B4FAB0B9A5B5A4 /* GTMSessionFetcher.h */,
+				13C7C5EED3C38C41F474AE52E7E5DF7A /* GTMSessionFetcher.m */,
+				9E14BC1E4F7F9B3728DEF3C0B3801B08 /* GTMSessionFetcherLogging.h */,
+				6A3B7BBC8C4458CA58A86D82082EF5F4 /* GTMSessionFetcherLogging.m */,
+				D87F924FF90E4F0487518AD6AF072BBF /* GTMSessionFetcherService.h */,
+				CC42E860DACAF6BF9EC07748EBB6E3D7 /* GTMSessionFetcherService.m */,
+				D2A0A510D658CD2EB358027E3BBE9171 /* GTMSessionUploadFetcher.h */,
+				EDB2ACF6CD0483ED43C5124FCC690C1E /* GTMSessionUploadFetcher.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D9C951AC30EA2592DA1D5473B5F14F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0A632626B6B2C1FD8A1949722B84F6 /* GTMSessionFetcher.modulemap */,
+				82B748A349BB58D1A85A8165886C1991 /* GTMSessionFetcher.xcconfig */,
+				C42789619DBC17A7CBE2D7717E415F32 /* GTMSessionFetcher-dummy.m */,
+				11B0C0451250197C2D95CB2CD26630C9 /* GTMSessionFetcher-prefix.pch */,
+				076A351408829428D852126AF8B23DE6 /* GTMSessionFetcher-umbrella.h */,
+				0E58AEE1E9564E96A329C88D04029053 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D2238EF12BD1238502B99FF86D46CCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B38F7C5510C09E468A9375BCB96A8 /* Pods-West Deerfield Township-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C20EBDEB20A08C81F341C0DD94FBFD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD338013850898D7AA75F657DA933420 /* GoogleAPIClientForREST-umbrella.h in Headers */,
+				07375424FAFCAE1A63E378695AB2C332 /* GTLRBase64.h in Headers */,
+				9EFB720ABFFF08FB6B23F592431E9AD0 /* GTLRBatchQuery.h in Headers */,
+				3521CBF54342A24A1103AB6393143DC0 /* GTLRBatchResult.h in Headers */,
+				707E79EED56924B8EBEE93FF5820C519 /* GTLRCalendar.h in Headers */,
+				3ED8193EECC0C101D9DC7BFC2A7B1954 /* GTLRCalendarObjects.h in Headers */,
+				3080B04AAAD372E7BFF99564D1C7FECA /* GTLRCalendarQuery.h in Headers */,
+				26DB78B4822709F55C28E9B859BBE415 /* GTLRCalendarService.h in Headers */,
+				893D4E971523C2F5F4BBC945E37AE5FA /* GTLRDateTime.h in Headers */,
+				4EBD7C4E66B72A83A86F7EE5976B1CC7 /* GTLRDefines.h in Headers */,
+				DB8AD12E8E18E76E80033862ED8779A2 /* GTLRDuration.h in Headers */,
+				720AF7649117F7CF0521B5E1350BA48F /* GTLRErrorObject.h in Headers */,
+				026B2B2376AC6D1F71DCF4B4CB83105E /* GTLRFramework.h in Headers */,
+				CD97CDC27F3364930DFDDCE5D368DE05 /* GTLRObject.h in Headers */,
+				298128A24672B340A05911DEB067689E /* GTLRQuery.h in Headers */,
+				EBEDDD5F4533F998A54C74F851C2E590 /* GTLRRuntimeCommon.h in Headers */,
+				FA6FA9659D7BD76A9DCCEA3B8F406C6E /* GTLRService.h in Headers */,
+				D535088A5E81A0C7A8FBAE1170C598DE /* GTLRUploadParameters.h in Headers */,
+				8B37E7BEDAC8737B8B657FB03DA7B22A /* GTLRURITemplate.h in Headers */,
+				EAF1C65416C2193B407715FF0C8ABCEF /* GTLRUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB18488B025F88BEC80EB772ABDAFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419CA1888B9DCF1CFBFE9EA919E3EFE6 /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A170B4BE905FF93AEBCC32DE38D60341 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADC9046AA530024FCAA1A9323C48D5 /* GTMGatherInputStream.h in Headers */,
+				7B01BE4C3C33B5E787962B6781518DD2 /* GTMMIMEDocument.h in Headers */,
+				79475C5418E28193587A8D9962ABAA5F /* GTMReadMonitorInputStream.h in Headers */,
+				31B9A58215FE28C293F08B99E110D211 /* GTMSessionFetcher-umbrella.h in Headers */,
+				CB394B727F590076AB9AC824E5FF9303 /* GTMSessionFetcher.h in Headers */,
+				743DFE0E601ED5652FAD91CD17D34206 /* GTMSessionFetcherLogging.h in Headers */,
+				2954371122F7E4D75EFCE8FB762C2838 /* GTMSessionFetcherService.h in Headers */,
+				24730F0254291E6388EC4FCC4CB2906B /* GTMSessionUploadFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C249F019F8982B60C82E1E791096BFEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EB3D81DA46415F61FC8BBAF839177F /* FSCalendar-umbrella.h in Headers */,
+				DEEDC5B5A52A7343CE425F0A411C442B /* FSCalendar.h in Headers */,
+				3E854A186108E25107EA25E175E71D2D /* FSCalendarAppearance.h in Headers */,
+				420D6C910CEB92F34E4E2F15BBE8EA4E /* FSCalendarCalculator.h in Headers */,
+				DBB3602ECDF06051AD95CF6898AD4D0B /* FSCalendarCell.h in Headers */,
+				4BA56434E3C216B81E93EFD1EE71852D /* FSCalendarCollectionView.h in Headers */,
+				BB74BA7BC0E43A711C4AA878A0BF6E6D /* FSCalendarCollectionViewLayout.h in Headers */,
+				1C33A8C8F95A3B3D864DC22B9E5B3CB5 /* FSCalendarConstants.h in Headers */,
+				0EBE2DB914C91FE2689975529A11247C /* FSCalendarDelegationFactory.h in Headers */,
+				358950BA6E8EE4C99587456B849C41CA /* FSCalendarDelegationProxy.h in Headers */,
+				F197432CD327C9DC2C48A595CAA45DA2 /* FSCalendarDynamicHeader.h in Headers */,
+				8ADBFB5BFB8A9D71C46FF887E1D016BE /* FSCalendarExtensions.h in Headers */,
+				71C07575BF136256A3C777B713C21A62 /* FSCalendarHeaderView.h in Headers */,
+				D13E500E72B7D039A573333D60B7444F /* FSCalendarSeparatorDecorationView.h in Headers */,
+				C1DF12D5F3004547BFD9D4C804E93F01 /* FSCalendarStickyHeader.h in Headers */,
+				E417ADED531D1263DB5DEC4806489059 /* FSCalendarTransitionCoordinator.h in Headers */,
+				F9DA37C83B8D98ADF4ACEC732C333217 /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1921C72E1ADC97E3D04CA25FFB58DBFC /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA0B92489C5138B697F3C9C80D0F440 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				C249F019F8982B60C82E1E791096BFEB /* Headers */,
+				B37C7B439715B5DC9943BEC95A2E93E0 /* Sources */,
+				99DEE70D3AE457CB8E8553F73B75BFAD /* Frameworks */,
+				8B919EB82BEF91BE03E8752E41D579FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 3353B7F4A244DEE5512D20EDE8B70198 /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		263C387953B2BD9BBC816B00850D9936 /* GoogleAPIClientForREST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7087BFB042AD36D2B59323D8AB18688 /* Build configuration list for PBXNativeTarget "GoogleAPIClientForREST" */;
+			buildPhases = (
+				7C20EBDEB20A08C81F341C0DD94FBFD5 /* Headers */,
+				C53D382BCF0D65F79C7DED8D582A73AC /* Sources */,
+				78FBFA4721A1C6EB9912661F1FDE8F9F /* Frameworks */,
+				EC5C4D60F17D534546A9420220AF4679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315BB62C905AA32B54F83AFD4DA112CB /* PBXTargetDependency */,
+			);
+			name = GoogleAPIClientForREST;
+			productName = GoogleAPIClientForREST;
+			productReference = 8D1B1D23D8AD6ECD428D3ECC97976B4C /* GoogleAPIClientForREST.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B14C777C20AB8CA13371DFC362ACE651 /* SwiftDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0BBD87B90BBE310CF94CC3721786AC /* Build configuration list for PBXNativeTarget "SwiftDate" */;
+			buildPhases = (
+				7EDB18488B025F88BEC80EB772ABDAFF /* Headers */,
+				31C86968CF20A7759530D3EC9C9ADCED /* Sources */,
+				55886533D75720BE05629F82D3C96D4A /* Frameworks */,
+				F3A27EC687423A2923FAC250FDD9F0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = B9CA39413F8D6CF0C70570CB63F2AF3E /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7EF352B9515896504B920439AD47027 /* Pods-West Deerfield Township */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA00F866AAEDFC37D0EA5ED2D35E15F /* Build configuration list for PBXNativeTarget "Pods-West Deerfield Township" */;
+			buildPhases = (
+				3D2238EF12BD1238502B99FF86D46CCC /* Headers */,
+				FB5EA2F7B108B6217852C98F60B9E2A5 /* Sources */,
+				1460E1383DAE91ED0435D21FFC46825E /* Frameworks */,
+				8E57BD8CBCAA7C7074462FAF010F4DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380221C7A603D4309D08A6E5A3569914 /* PBXTargetDependency */,
+				5550C7ADA7995BB96A5E7620764F01D8 /* PBXTargetDependency */,
+				9978383E6F8C48C9CF4E5E5EDA926C87 /* PBXTargetDependency */,
+				8321C312AA7F3F938E35F0B895B76004 /* PBXTargetDependency */,
+			);
+			name = "Pods-West Deerfield Township";
+			productName = "Pods-West Deerfield Township";
+			productReference = 0FD5A0AE7EE5487E3C84831ABA18709B /* Pods_West_Deerfield_Township.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2B728CB0EA99E0F632E185F0C5068E7 /* GTMSessionFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC53988B18BEB69C9E5D9F8C6096B04 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
+			buildPhases = (
+				A170B4BE905FF93AEBCC32DE38D60341 /* Headers */,
+				4B7255138449B0FF21261A747A8C399E /* Sources */,
+				B796B9A0A5521361B3EFAE54CF789A04 /* Frameworks */,
+				77FF46B5904658DD14ACBA88008DF117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = 22253C4C7C3878168D3215F55D620013 /* GTMSessionFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D51B6097ADD2E09C413F6D9B01CCE103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1921C72E1ADC97E3D04CA25FFB58DBFC /* FSCalendar */,
+				263C387953B2BD9BBC816B00850D9936 /* GoogleAPIClientForREST */,
+				F2B728CB0EA99E0F632E185F0C5068E7 /* GTMSessionFetcher */,
+				D7EF352B9515896504B920439AD47027 /* Pods-West Deerfield Township */,
+				B14C777C20AB8CA13371DFC362ACE651 /* SwiftDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77FF46B5904658DD14ACBA88008DF117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B919EB82BEF91BE03E8752E41D579FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E57BD8CBCAA7C7074462FAF010F4DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5C4D60F17D534546A9420220AF4679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A27EC687423A2923FAC250FDD9F0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C86968CF20A7759530D3EC9C9ADCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE18125C94E9DCCE74DA39175080717 /* AssociatedValues.swift in Sources */,
+				31F2111C99B70B4E7114B047216B0F76 /* Calendars.swift in Sources */,
+				DD0443ACFFDB1E8DB627D74B6887B726 /* Commons.swift in Sources */,
+				E114A8A169828B3B8E69851F8D475FD3 /* Date+Compare.swift in Sources */,
+				F36B7335CC5DBDA46D3ACB719F2F1F0E /* Date+Components.swift in Sources */,
+				2C873429B5B4705F39D5AF73C0FB0164 /* Date+Create.swift in Sources */,
+				714B851A995247612F7C37EDA78389DA /* Date+Math.swift in Sources */,
+				F03F93E24754824917974EDFBE7872FB /* Date.swift in Sources */,
+				EA08268F9E3EBFABEFB43BD5EAAEFB61 /* DateComponents+Extras.swift in Sources */,
+				E8D72974837CFBF30AD6869396A284AA /* DateInRegion+Compare.swift in Sources */,
+				E62FBD5E826BBBE4988C23421C26C86B /* DateInRegion+Components.swift in Sources */,
+				8CCF518366B35A75D017BFA69667CACD /* DateInRegion+Create.swift in Sources */,
+				68EAE7A69ED3E2E1D2CF799F935FE780 /* DateInRegion+Math.swift in Sources */,
+				1207ABB5586A29DDF701B9D9F9F7AB43 /* DateInRegion.swift in Sources */,
+				A0BFF3FE962B117975AB3844734F2FC7 /* DateRepresentable.swift in Sources */,
+				F9D29440BC91784A56E56F422574DE01 /* DotNetParserFormatter.swift in Sources */,
+				90D172F68FA74AB5DB81C7FCF7D37730 /* Formatter+Protocols.swift in Sources */,
+				DB320EF4C2F066976A1A6B479FFF16F0 /* Int+DateComponents.swift in Sources */,
+				985148E1699E06B187F9FFDB493AD6C4 /* ISOFormatter.swift in Sources */,
+				15DE76E0B683E57DA2389CCD09149AE2 /* ISOParser.swift in Sources */,
+				3B982AB2BAE6C94048BBDB8FA8A251B1 /* lang_af.swift in Sources */,
+				3CD26703F478CF96BBAD79414E61EE31 /* lang_am.swift in Sources */,
+				FE833B286AA69AECFFBF4E2076F663FD /* lang_ar.swift in Sources */,
+				791C7F82AB2A9EADBFAA37508D04A759 /* lang_ar_AE.swift in Sources */,
+				6852775EF7660D69E5C8B3797778FBCC /* lang_as.swift in Sources */,
+				8A85027C5809CF3D02CD9F5B8998A027 /* lang_az.swift in Sources */,
+				CB47CB55020F558663662493C8A89188 /* lang_be.swift in Sources */,
+				8DD2563D4F136E960466D761753AD2E3 /* lang_bg.swift in Sources */,
+				07A97069D1EE26810AA42B805ABF0A4E /* lang_bn.swift in Sources */,
+				687E13C6BC9899593EB25A618723FC48 /* lang_br.swift in Sources */,
+				ABEE6DD008F07C7442B45CF578CF0758 /* lang_bs.swift in Sources */,
+				058E4543726F3B8F1308D43E5BEF7B5D /* lang_bsCyrl.swift in Sources */,
+				D8CD4C47EC113E48397BF2282375B4A1 /* lang_ca.swift in Sources */,
+				70C555D114B61A310FB1D3DC9800047C /* lang_cs.swift in Sources */,
+				961634EBEB19C3DAE2B10CEC346511E3 /* lang_cy.swift in Sources */,
+				9C304FD2E81F656E940BAB585B972AD6 /* lang_da.swift in Sources */,
+				EF787A6F4769F398C8167E228211222F /* lang_de.swift in Sources */,
+				2189ECCCD4143BD1617B4B4F8A6DA18A /* lang_dsb.swift in Sources */,
+				C89ABD2F4521CC6424253FDFF439C516 /* lang_dz.swift in Sources */,
+				2CBF51DFD6504340429B774852F34D33 /* lang_ee.swift in Sources */,
+				54FF36A3007B9F3ABD975B204DE04DD5 /* lang_el.swift in Sources */,
+				95A116E8EB41F137B1ED4CAC6BD1246A /* lang_en.swift in Sources */,
+				E9E60FC4895B6E0BCD6FBD5219EA60E8 /* lang_es.swift in Sources */,
+				E1ACF000EAC88CFB19D9662DBAD97077 /* lang_es_AR.swift in Sources */,
+				9F4EB24EE060E32D9A504A6222917D69 /* lang_es_MX.swift in Sources */,
+				2DD7929FE8E8F8F95106FE950509B741 /* lang_es_PY.swift in Sources */,
+				21FCBB090D35D27720BB784D3E6B480A /* lang_es_US.swift in Sources */,
+				7DDEB31ADBF3DC5F1E5C40AD374599B7 /* lang_et.swift in Sources */,
+				4CB56D5CDCB9425D8CB15A5FD937A190 /* lang_eu.swift in Sources */,
+				FD0943373965CB1729567FA13DFDC74C /* lang_fa.swift in Sources */,
+				09D711C5858EE1BA6A42F44E40A52BED /* lang_fi.swift in Sources */,
+				9CB21AA5B0358ECD1C9AE724C2B11CB2 /* lang_fil.swift in Sources */,
+				B4D00ADCA9B266AB24BFBAA9899E5F15 /* lang_fo.swift in Sources */,
+				84D820DEC96C38D349DB834154A9F462 /* lang_fr.swift in Sources */,
+				EC925460F351FAACC6537FB3E42C3C29 /* lang_fr_CA.swift in Sources */,
+				349E945C5539453F66375B4CEFA08A26 /* lang_fur.swift in Sources */,
+				57C1A07B3EFDFE8B0E5A5DF7107010F8 /* lang_fy.swift in Sources */,
+				ECBE7CEC161BC74C497654292A20A0A3 /* lang_ga.swift in Sources */,
+				8655CCEECE1DF18D6BDBDE14654E3166 /* lang_gd.swift in Sources */,
+				A9EC0094C0BF12F3A8506692281D663F /* lang_gl.swift in Sources */,
+				486106A74A3FDCF09D3CC1793258AF3D /* lang_gu.swift in Sources */,
+				0E7F9AB5B10DFF79CF4F49C0568C2387 /* lang_he.swift in Sources */,
+				797720D4F0C8DAE67379364DD4E24327 /* lang_hi.swift in Sources */,
+				CAF3F7A4C19937AB8F7BFF331CDF4A70 /* lang_hr.swift in Sources */,
+				38F842E55C1A894E74464F034A5EFF39 /* lang_hsb.swift in Sources */,
+				7C730389F901BE0D2ED0B519DD198149 /* lang_hu.swift in Sources */,
+				04D95711131E3573505B9BE4626BA9F7 /* lang_hy.swift in Sources */,
+				7D2A5FF6FED59929C0C4F9A87E48D57A /* lang_id.swift in Sources */,
+				E3B68E6B4EAB7E636AAAA146A1C95D35 /* lang_is.swift in Sources */,
+				91CDA92C8D0F81832C5ED8A5C9003E3E /* lang_it.swift in Sources */,
+				D907A940EED5C56BA3A632185ADAFFBA /* lang_ja.swift in Sources */,
+				9F467BA70D53BC0D5F112B1335BDE870 /* lang_jgo.swift in Sources */,
+				4148163B3015B9BC1A4E6A7FCCA17E3E /* lang_ka.swift in Sources */,
+				F9272E9EB18BC3E99D8DC69B1EAAE9E8 /* lang_kea.swift in Sources */,
+				AC83E4F4A95FAC3FECBA0E3E95E0D95B /* lang_kk.swift in Sources */,
+				1C607CA06AEB3AA72CC7827E53C3AC06 /* lang_kl.swift in Sources */,
+				9D88FEA1DC9514023001416A4C191B50 /* lang_km.swift in Sources */,
+				6E2EBA34F7E062EF3F7909C4FE26432A /* lang_kn.swift in Sources */,
+				808B0FC2B2372E0E388CEE19FCECBC48 /* lang_ko.swift in Sources */,
+				7172D7C9C00985C724E08400F03AF252 /* lang_kok.swift in Sources */,
+				FD4DF72AF52BA14A0EE2D5F5B516D18F /* lang_ksh.swift in Sources */,
+				0B4789F602560244741E42D251803E03 /* lang_ky.swift in Sources */,
+				475094B9ED3D847DB1E84C2637E8859F /* lang_lb.swift in Sources */,
+				81D34B80D3269C069E44B4B1B33DAE36 /* lang_lkt.swift in Sources */,
+				56B4CBD796E63FA9108D49667ED2326F /* lang_lo.swift in Sources */,
+				4602D8FE19C3AEDFFAB3E5F6276DBBB2 /* lang_lt.swift in Sources */,
+				AED5638D51E2DF906B6B854D1A0A659B /* lang_lv.swift in Sources */,
+				EE806FDD93975AF2983AED8B332400ED /* lang_mk.swift in Sources */,
+				A7774CB00D3ACD0DE9BB0DA7EE688692 /* lang_ml.swift in Sources */,
+				D3599A12724D4A47159DAB902BEB59D2 /* lang_mn.swift in Sources */,
+				9F5667E94B469E9FACEE6243436026E9 /* lang_mr.swift in Sources */,
+				76DF5D704AC9EF0C246E8D53D932EFDD /* lang_ms.swift in Sources */,
+				D763D4F910D1405E19AA1FB406CC04F4 /* lang_mt.swift in Sources */,
+				7C936660669AAE197A5AAB8FAC761892 /* lang_my.swift in Sources */,
+				DA4EE3383D560EB622290E4F688DF559 /* lang_mzn.swift in Sources */,
+				AAF35E44B6FD6CD6C6091C1EADA9EF5C /* lang_nb.swift in Sources */,
+				511DA4744B4128B435247070B3ED3A68 /* lang_ne.swift in Sources */,
+				9D206E304DB98381F266118950B05E20 /* lang_nl.swift in Sources */,
+				66EECE4B89B3176189F019B224EC025A /* lang_nn.swift in Sources */,
+				61153124F3F87E794D10CCA08021855D /* lang_or.swift in Sources */,
+				8D4775B0D3EDFF24569746F51704F997 /* lang_pa.swift in Sources */,
+				E1F45C7359C68E7416CC6CDE488DE7AD /* lang_pl.swift in Sources */,
+				A94D447D140C253830661D5BEE00F178 /* lang_ps.swift in Sources */,
+				44B5AFB72E8D1524A3CC102D8911C9C0 /* lang_pt.swift in Sources */,
+				DD7EC1EB96E5C36C80FE73846029688D /* lang_ro.swift in Sources */,
+				AB641B2223B79420EAD6F7A66D9C4F66 /* lang_ru.swift in Sources */,
+				228BD816B19C8A2A2ECB71DCB20A6580 /* lang_sah.swift in Sources */,
+				AA1619A9150D9CF9D216528D6C5D9E00 /* lang_sd.swift in Sources */,
+				867AB9CCDB4C6B8C1FF4C0455838827E /* lang_se.swift in Sources */,
+				132526B6398677EDA0416654177A2651 /* lang_se_FI.swift in Sources */,
+				5C719B359487169D186A3E9AA5A7E418 /* lang_si.swift in Sources */,
+				3BD84D192D255F621A1779B283FFB1A0 /* lang_sk.swift in Sources */,
+				4797739F9B7E2C7D93C6FAE18DACAD8E /* lang_sl.swift in Sources */,
+				86709D70F31244D4DF8F2D758379881A /* lang_sq.swift in Sources */,
+				D8185809A3DEA965DEA78DB2C875BE5A /* lang_sr.swift in Sources */,
+				0DC4BA265E543E2125ED8BBB4FDF3591 /* lang_sr_Latn.swift in Sources */,
+				143D7E9E458534A8E876227F2EDACA1D /* lang_sv.swift in Sources */,
+				1237EA56E386EE6A3B4E96124F853C39 /* lang_sw.swift in Sources */,
+				80B3BB5C8CE1A5AD5C3507BA762CFE89 /* lang_ta.swift in Sources */,
+				688878E67C4364BAA5B024F37B898DA3 /* lang_te.swift in Sources */,
+				8606A441F68797F25600493B385B01DC /* lang_th.swift in Sources */,
+				8F9FDAD0B22DA02B0D4E9A58C5787D32 /* lang_ti.swift in Sources */,
+				E93C90361F4A6CC44AFD3D9265F0A1BA /* lang_tk.swift in Sources */,
+				120E0D64E784114A0D5639BE54DF3B7E /* lang_to.swift in Sources */,
+				B394F510DD1DDDA444E082748528D10D /* lang_tr.swift in Sources */,
+				C17186F484AF0F092C44648604A2EF29 /* lang_ug.swift in Sources */,
+				0C973EB755224041ADD5942BA63B40FB /* lang_uk.swift in Sources */,
+				8DC2E3DB61B698FDC137D24ECA2598EE /* lang_ur.swift in Sources */,
+				CE4D3A0E467363C2071CF2214C56189E /* lang_ur_IN.swift in Sources */,
+				546D874ABC60B03E74C41E79037552B8 /* lang_uz.swift in Sources */,
+				4DB7C2D75403B8DB65F54BDAA66CDEF3 /* lang_uz_Cyrl.swift in Sources */,
+				4F024B8B2F320BD392B265A97C34CE62 /* lang_vi.swift in Sources */,
+				23F21E65E1702DB31B3F0B414BB97704 /* lang_wae.swift in Sources */,
+				4C69223B76D14842C7613F55889877C7 /* lang_yi.swift in Sources */,
+				6FC746DB093730829F5D2CA9C3E5EDDC /* lang_yue_Hans.swift in Sources */,
+				BF30066796BAFB82B950B0A088CAC576 /* lang_yue_Hant.swift in Sources */,
+				6EEDDC0F40020440211217354AAFF4FF /* lang_zh.swift in Sources */,
+				B48C750F731A22AF62106D76380BFBB5 /* lang_zh_Hans_HK.swift in Sources */,
+				A5602708177572314F2C07F9573D0440 /* lang_zh_Hans_MO.swift in Sources */,
+				F0E22AD2D6640F9AEB4BD9EF3ABC4691 /* lang_zh_Hans_SG.swift in Sources */,
+				4A7FE1CF2357B61C90E6D0E54E232A9B /* lang_zh_Hant.swift in Sources */,
+				1C904D42FAC88234092D095EAB9E280B /* lang_zh_Hant_HK.swift in Sources */,
+				DA9C6910C4AA8D73350C8AB7A0474FB0 /* lang_zh_Hant_MO.swift in Sources */,
+				86165829DEEBB2D3570089EFB766F2F8 /* lang_zu.swift in Sources */,
+				C41407CFFE58DC25F5F593C189AB99D2 /* Locales.swift in Sources */,
+				6290860E7A03CCC82E93D035F0A39E50 /* Region.swift in Sources */,
+				EBD94266C808D642E9D5471AC17C1358 /* RelativeFormatter+Style.swift in Sources */,
+				5CF4B2BE82602D1EE76B227450F8DBB1 /* RelativeFormatter.swift in Sources */,
+				77805579FCC9F759B975A563615622AD /* String+Parser.swift in Sources */,
+				BC985427DA385E9050F783CCD52B9311 /* SwiftDate-dummy.m in Sources */,
+				410FBAB29E1E53A58FC9AF29E135DEA4 /* SwiftDate.swift in Sources */,
+				2AFB1B23253AA37B0F4100F57409A776 /* TimeInterval+Formatter.swift in Sources */,
+				C353C5D4F7043FEF146D24D97F4707BD /* TimePeriod+Support.swift in Sources */,
+				62F21EFBFB88EBDBFF75D204997B6A81 /* TimePeriod.swift in Sources */,
+				1C05961249C80E663E03866050AEBCE3 /* TimePeriodChain.swift in Sources */,
+				79341175C27C24314C386DB3D901AFF9 /* TimePeriodCollection.swift in Sources */,
+				4D2905E24E0D8C17F1D70B6F68D1802B /* TimePeriodGroup.swift in Sources */,
+				5AEE66C4B3BE64D467703D7F4EE591F7 /* TimePeriodProtocol.swift in Sources */,
+				6937DA048581612FB5227ABABC89F578 /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7255138449B0FF21261A747A8C399E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3475429CAC9C7C0686CA3AE0E4BFA4 /* GTMGatherInputStream.m in Sources */,
+				04E0892AB7D985D78069A5CF625F5F0F /* GTMMIMEDocument.m in Sources */,
+				4A2A0C2B4AD6672B8B880A24F9DEA74D /* GTMReadMonitorInputStream.m in Sources */,
+				A39971F7ABA0D64D2563F7563235E48D /* GTMSessionFetcher-dummy.m in Sources */,
+				57433A4F1650189F64867457F77802F5 /* GTMSessionFetcher.m in Sources */,
+				AB0A8722407407E0E5E61CBA13843B85 /* GTMSessionFetcherLogging.m in Sources */,
+				55B8B6D6A0BB68AAC0F5894ED3F9E6AA /* GTMSessionFetcherService.m in Sources */,
+				DB445A3B96A84AC3EAF3E68B88D48962 /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C7B439715B5DC9943BEC95A2E93E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060623B11B9070CC76819833F3FA84C /* FSCalendar-dummy.m in Sources */,
+				AD9D4DB8C6704028CC726D51E7E35547 /* FSCalendar.m in Sources */,
+				D06935A59B3E3CFBF971E9613C80C49D /* FSCalendarAppearance.m in Sources */,
+				849C9E5D2FE0810D1A9E3368F5D6D87C /* FSCalendarCalculator.m in Sources */,
+				D7597C04B8FE1D1E5D30E304B965022A /* FSCalendarCell.m in Sources */,
+				A9B720490D2E5AD9EA2880D971F8434F /* FSCalendarCollectionView.m in Sources */,
+				A52D89B20F7855358EB3EA8E69F3ABB0 /* FSCalendarCollectionViewLayout.m in Sources */,
+				85585F91CD314B17F392B4896C1D27EC /* FSCalendarConstants.m in Sources */,
+				BDB6BA43250DFF70689481AAC9750E82 /* FSCalendarDelegationFactory.m in Sources */,
+				16BE90421DB9C2ECAA7159CE3E9250A2 /* FSCalendarDelegationProxy.m in Sources */,
+				259FC6DCE1BA2BB0EED84730C30B5AF3 /* FSCalendarExtensions.m in Sources */,
+				C8498D5D4BC978CD661B1B051DD17E74 /* FSCalendarHeaderView.m in Sources */,
+				973FE8759B5FB18DA9C8C4AEC6E3E650 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				E0E61217ABCC6A0D4CD0D234734A0964 /* FSCalendarStickyHeader.m in Sources */,
+				A95C02BA915435B4D48FBB1BC442263E /* FSCalendarTransitionCoordinator.m in Sources */,
+				389AB31471187DB059CDF638BDFAFE87 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D382BCF0D65F79C7DED8D582A73AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6742F3BDAABFD47991297364BC2F9F /* GoogleAPIClientForREST-dummy.m in Sources */,
+				6D42152A51C591C058154CF8D0A9109A /* GTLRBase64.m in Sources */,
+				A48664D1B0EDB6F9EB0EA28490AAF886 /* GTLRBatchQuery.m in Sources */,
+				84063777C35C27B5475F9D497427B5C5 /* GTLRBatchResult.m in Sources */,
+				FDE0044D7FFC25E1FB9A02F38892C990 /* GTLRCalendarObjects.m in Sources */,
+				E7892B99233C91F2A92F0E3645DF3D69 /* GTLRCalendarQuery.m in Sources */,
+				FFBC8188B3251503E9034F8DB518D453 /* GTLRCalendarService.m in Sources */,
+				F01C40EC563AAE7A618C154CF95208EC /* GTLRDateTime.m in Sources */,
+				3B828CF94BEFFCD9E845A23FF903E660 /* GTLRDuration.m in Sources */,
+				B2E7A31D316742634E82C77B3A77ADE5 /* GTLRErrorObject.m in Sources */,
+				D2412041A282EF05F3866589FA3A6B7C /* GTLRFramework.m in Sources */,
+				04B00C9B9C47134D79BFD1E91753A0B6 /* GTLRObject.m in Sources */,
+				8C42B47E78A6C8290766562595DC5D8D /* GTLRQuery.m in Sources */,
+				B144FB08A358493BA948586A01F1A57B /* GTLRRuntimeCommon.m in Sources */,
+				E3D9928DDFF8D82BC78CAD6D898FF502 /* GTLRService.m in Sources */,
+				C8C28AE0AE100A4FF2185B451084B1C9 /* GTLRUploadParameters.m in Sources */,
+				CA018C9A76234DA000639879AA519AA7 /* GTLRURITemplate.m in Sources */,
+				157EBA067C9F4415FB512D0F4BCAAC04 /* GTLRUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5EA2F7B108B6217852C98F60B9E2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C8527CEDA316E2192B81FE1857C5F3 /* Pods-West Deerfield Township-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315BB62C905AA32B54F83AFD4DA112CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = F2B728CB0EA99E0F632E185F0C5068E7 /* GTMSessionFetcher */;
+			targetProxy = 4D4D739402F3692D4158EC42D31E633D /* PBXContainerItemProxy */;
+		};
+		380221C7A603D4309D08A6E5A3569914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 1921C72E1ADC97E3D04CA25FFB58DBFC /* FSCalendar */;
+			targetProxy = 0104C4EE316CED8D590DAEDEB6D1A880 /* PBXContainerItemProxy */;
+		};
+		5550C7ADA7995BB96A5E7620764F01D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = F2B728CB0EA99E0F632E185F0C5068E7 /* GTMSessionFetcher */;
+			targetProxy = 4AC9075DA67FE8E934DE85E97A78091E /* PBXContainerItemProxy */;
+		};
+		8321C312AA7F3F938E35F0B895B76004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = B14C777C20AB8CA13371DFC362ACE651 /* SwiftDate */;
+			targetProxy = 9529A5A8CC876089CEEF0C29AE17D4D4 /* PBXContainerItemProxy */;
+		};
+		9978383E6F8C48C9CF4E5E5EDA926C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAPIClientForREST;
+			target = 263C387953B2BD9BBC816B00850D9936 /* GoogleAPIClientForREST */;
+			targetProxy = A1073D4042B9FBBA86608F54F825C741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01443C18040CE18801107C2F4760A50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B161D9EF313D7C5F1870AB3669D7796 /* GoogleAPIClientForREST.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClientForREST/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST.modulemap";
+				PRODUCT_MODULE_NAME = GoogleAPIClientForREST;
+				PRODUCT_NAME = GoogleAPIClientForREST;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11516B0834270943882BB0BE5DD16B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B748A349BB58D1A85A8165886C1991 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				PRODUCT_MODULE_NAME = GTMSessionFetcher;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		200D1EBF923F0A4D86A1090F8F2A871C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FE3BC56F8A7A0D2D973DED84B37EE0 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2770F4DD1059C9CBD06FD032E118E31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B748A349BB58D1A85A8165886C1991 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				PRODUCT_MODULE_NAME = GTMSessionFetcher;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70B652DC8658E7DDFCEC8EB8967B593F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BA6E8BF48FA0F3108C54AB99B0B0DB /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		867265AE0C39682390D4EA9082C9A290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B161D9EF313D7C5F1870AB3669D7796 /* GoogleAPIClientForREST.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClientForREST/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST.modulemap";
+				PRODUCT_MODULE_NAME = GoogleAPIClientForREST;
+				PRODUCT_NAME = GoogleAPIClientForREST;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A793C72F5A142B988E467623153554FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BA6E8BF48FA0F3108C54AB99B0B0DB /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C76B9A802DC4F3BE9E1EC56E4DC04D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FE3BC56F8A7A0D2D973DED84B37EE0 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C913849EDD7F35B522E4B3622664D293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3898E659BED872CF45CE0FA24643F4D /* Pods-West Deerfield Township.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-West Deerfield Township/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFA64F08E5B6C66F6E66F41D0F90B02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE42EC57ACFAA360B2C2E8207B37B25F /* Pods-West Deerfield Township.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-West Deerfield Township/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */,
+				B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA00F866AAEDFC37D0EA5ED2D35E15F /* Build configuration list for PBXNativeTarget "Pods-West Deerfield Township" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA64F08E5B6C66F6E66F41D0F90B02E /* Debug */,
+				C913849EDD7F35B522E4B3622664D293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA0B92489C5138B697F3C9C80D0F440 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B652DC8658E7DDFCEC8EB8967B593F /* Debug */,
+				A793C72F5A142B988E467623153554FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7087BFB042AD36D2B59323D8AB18688 /* Build configuration list for PBXNativeTarget "GoogleAPIClientForREST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867265AE0C39682390D4EA9082C9A290 /* Debug */,
+				01443C18040CE18801107C2F4760A50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0BBD87B90BBE310CF94CC3721786AC /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76B9A802DC4F3BE9E1EC56E4DC04D09 /* Debug */,
+				200D1EBF923F0A4D86A1090F8F2A871C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC53988B18BEB69C9E5D9F8C6096B04 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11516B0834270943882BB0BE5DD16B59 /* Debug */,
+				2770F4DD1059C9CBD06FD032E118E31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

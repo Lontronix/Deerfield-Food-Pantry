@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E46F1BC2285EDCC004F72EC /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F1BB2285EDCC004F72EC /* TextTableViewCell.swift */; };
+		6E46F1BF2285EFA6004F72EC /* FoodPantryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F1BE2285EFA6004F72EC /* FoodPantryController.swift */; };
+		6E46F1C12285F025004F72EC /* ImageCarouselTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F1C02285F025004F72EC /* ImageCarouselTableCell.swift */; };
+		6E46F1C32285F07B004F72EC /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F1C22285F07B004F72EC /* ImageCollectionCell.swift */; };
+		6E46F1C52285F39F004F72EC /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F1C42285F39F004F72EC /* AboutController.swift */; };
+		B5E547D021EB85EB00A0B499 /* CalendarTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E547CF21EB85EB00A0B499 /* CalendarTimeTableViewCell.swift */; };
+		B5E547D221EB9A4700A0B499 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E547D121EB9A4700A0B499 /* HeaderTableViewCell.swift */; };
+		B5E547D721EB9D2C00A0B499 /* UIColor+WDT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E547D621EB9D2C00A0B499 /* UIColor+WDT.swift */; };
+		B5E547D921EBB37A00A0B499 /* GoogleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E547D821EBB37A00A0B499 /* GoogleCalendar.swift */; };
+		B5E6D1DD21D7052700490FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6D1DC21D7052700490FF9 /* AppDelegate.swift */; };
+		B5E6D1E221D7052700490FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E6D1E021D7052700490FF9 /* Main.storyboard */; };
+		B5E6D1E421D7052800490FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E6D1E321D7052800490FF9 /* Assets.xcassets */; };
+		B5E6D1E721D7052800490FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E6D1E521D7052800490FF9 /* LaunchScreen.storyboard */; };
+		B5E6D1EF21D7067C00490FF9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6D1EE21D7067C00490FF9 /* CalendarViewController.swift */; };
+		B5E6D1F321D7085800490FF9 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6D1F221D7085800490FF9 /* DonateViewController.swift */; };
+		E9CC53CF62DFC7558F8DC1D1 /* Pods_West_Deerfield_Township.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98281FBD7D8773A245587483 /* Pods_West_Deerfield_Township.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E46F1BB2285EDCC004F72EC /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		6E46F1BE2285EFA6004F72EC /* FoodPantryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPantryController.swift; sourceTree = "<group>"; };
+		6E46F1C02285F025004F72EC /* ImageCarouselTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCarouselTableCell.swift; sourceTree = "<group>"; };
+		6E46F1C22285F07B004F72EC /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		6E46F1C42285F39F004F72EC /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		854EEDC5EB398F9A5D372513 /* Pods-West Deerfield Township.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-West Deerfield Township.debug.xcconfig"; path = "Pods/Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township.debug.xcconfig"; sourceTree = "<group>"; };
+		98281FBD7D8773A245587483 /* Pods_West_Deerfield_Township.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_West_Deerfield_Township.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA27B90E6CE96D69C6C3ADB /* Pods-West Deerfield Township.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-West Deerfield Township.release.xcconfig"; path = "Pods/Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township.release.xcconfig"; sourceTree = "<group>"; };
+		B5E547CF21EB85EB00A0B499 /* CalendarTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTimeTableViewCell.swift; sourceTree = "<group>"; };
+		B5E547D121EB9A4700A0B499 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B5E547D621EB9D2C00A0B499 /* UIColor+WDT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+WDT.swift"; sourceTree = "<group>"; };
+		B5E547D821EBB37A00A0B499 /* GoogleCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendar.swift; sourceTree = "<group>"; };
+		B5E6D1D921D7052700490FF9 /* West Deerfield Township.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "West Deerfield Township.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E6D1DC21D7052700490FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5E6D1E121D7052700490FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5E6D1E321D7052800490FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5E6D1E621D7052800490FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5E6D1E821D7052800490FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E6D1EE21D7067C00490FF9 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		B5E6D1F221D7085800490FF9 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E6D1D621D7052700490FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CC53CF62DFC7558F8DC1D1 /* Pods_West_Deerfield_Township.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E46F1B42285ED9C004F72EC /* About */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F1C42285F39F004F72EC /* AboutController.swift */,
+				6E46F1BB2285EDCC004F72EC /* TextTableViewCell.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		6E46F1BD2285EEF1004F72EC /* Food Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F1BE2285EFA6004F72EC /* FoodPantryController.swift */,
+			);
+			path = "Food Pantry";
+			sourceTree = "<group>";
+		};
+		83F34901F7B27AD8F112AB38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98281FBD7D8773A245587483 /* Pods_West_Deerfield_Township.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B584F6A4CC6D00BE64D4B2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854EEDC5EB398F9A5D372513 /* Pods-West Deerfield Township.debug.xcconfig */,
+				ADA27B90E6CE96D69C6C3ADB /* Pods-West Deerfield Township.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5E547CE21EB85D000A0B499 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B5E6D1EE21D7067C00490FF9 /* CalendarViewController.swift */,
+				B5E547D821EBB37A00A0B499 /* GoogleCalendar.swift */,
+				B5E547CF21EB85EB00A0B499 /* CalendarTimeTableViewCell.swift */,
+				B5E547D121EB9A4700A0B499 /* HeaderTableViewCell.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		B5E547D521EB9D0F00A0B499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F1C02285F025004F72EC /* ImageCarouselTableCell.swift */,
+				6E46F1C22285F07B004F72EC /* ImageCollectionCell.swift */,
+				B5E547D621EB9D2C00A0B499 /* UIColor+WDT.swift */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B5E6D1D021D7052700490FF9 = {
+			isa = PBXGroup;
+			children = (
+				B5E6D1DB21D7052700490FF9 /* West Deerfield Township */,
+				B5E6D1DA21D7052700490FF9 /* Products */,
+				B584F6A4CC6D00BE64D4B2BC /* Pods */,
+				83F34901F7B27AD8F112AB38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5E6D1DA21D7052700490FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E6D1D921D7052700490FF9 /* West Deerfield Township.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E6D1DB21D7052700490FF9 /* West Deerfield Township */ = {
+			isa = PBXGroup;
+			children = (
+				B5E6D1DC21D7052700490FF9 /* AppDelegate.swift */,
+				B5E547D521EB9D0F00A0B499 /* Resources */,
+				6E46F1BD2285EEF1004F72EC /* Food Pantry */,
+				B5E547CE21EB85D000A0B499 /* Calendar */,
+				B5E6D1F221D7085800490FF9 /* DonateViewController.swift */,
+				6E46F1B42285ED9C004F72EC /* About */,
+				B5E6D1E021D7052700490FF9 /* Main.storyboard */,
+				B5E6D1E321D7052800490FF9 /* Assets.xcassets */,
+				B5E6D1E521D7052800490FF9 /* LaunchScreen.storyboard */,
+				B5E6D1E821D7052800490FF9 /* Info.plist */,
+			);
+			path = "West Deerfield Township";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5E6D1D821D7052700490FF9 /* West Deerfield Township */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E6D1EB21D7052800490FF9 /* Build configuration list for PBXNativeTarget "West Deerfield Township" */;
+			buildPhases = (
+				6F703AF6F1B4B68E24DD7C34 /* [CP] Check Pods Manifest.lock */,
+				B5E6D1D521D7052700490FF9 /* Sources */,
+				B5E6D1D621D7052700490FF9 /* Frameworks */,
+				B5E6D1D721D7052700490FF9 /* Resources */,
+				0945925D78C5B0674EC10DAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "West Deerfield Township";
+			productName = "West Deerfield Township";
+			productReference = B5E6D1D921D7052700490FF9 /* West Deerfield Township.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5E6D1D121D7052700490FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ben Rosen";
+				TargetAttributes = {
+					B5E6D1D821D7052700490FF9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B5E6D1D421D7052700490FF9 /* Build configuration list for PBXProject "West Deerfield Township" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5E6D1D021D7052700490FF9;
+			productRefGroup = B5E6D1DA21D7052700490FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E6D1D821D7052700490FF9 /* West Deerfield Township */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5E6D1D721D7052700490FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E6D1E721D7052800490FF9 /* LaunchScreen.storyboard in Resources */,
+				B5E6D1E421D7052800490FF9 /* Assets.xcassets in Resources */,
+				B5E6D1E221D7052700490FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0945925D78C5B0674EC10DAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-West Deerfield Township/Pods-West Deerfield Township-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F703AF6F1B4B68E24DD7C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-West Deerfield Township-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E6D1D521D7052700490FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E46F1C52285F39F004F72EC /* AboutController.swift in Sources */,
+				6E46F1BF2285EFA6004F72EC /* FoodPantryController.swift in Sources */,
+				B5E547D021EB85EB00A0B499 /* CalendarTimeTableViewCell.swift in Sources */,
+				B5E547D721EB9D2C00A0B499 /* UIColor+WDT.swift in Sources */,
+				6E46F1C12285F025004F72EC /* ImageCarouselTableCell.swift in Sources */,
+				B5E547D221EB9A4700A0B499 /* HeaderTableViewCell.swift in Sources */,
+				6E46F1C32285F07B004F72EC /* ImageCollectionCell.swift in Sources */,
+				B5E6D1EF21D7067C00490FF9 /* CalendarViewController.swift in Sources */,
+				B5E6D1DD21D7052700490FF9 /* AppDelegate.swift in Sources */,
+				6E46F1BC2285EDCC004F72EC /* TextTableViewCell.swift in Sources */,
+				B5E547D921EBB37A00A0B499 /* GoogleCalendar.swift in Sources */,
+				B5E6D1F321D7085800490FF9 /* DonateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5E6D1E021D7052700490FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E6D1E121D7052700490FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5E6D1E521D7052800490FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E6D1E621D7052800490FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E6D1E921D7052800490FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5E6D1EA21D7052800490FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5E6D1EC21D7052800490FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854EEDC5EB398F9A5D372513 /* Pods-West Deerfield Township.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K36HYHZA7X;
+				INFOPLIST_FILE = "West Deerfield Township/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benrosen.West-Deerfield-Township";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5E6D1ED21D7052800490FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA27B90E6CE96D69C6C3ADB /* Pods-West Deerfield Township.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K36HYHZA7X;
+				INFOPLIST_FILE = "West Deerfield Township/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benrosen.West-Deerfield-Township";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E6D1D421D7052700490FF9 /* Build configuration list for PBXProject "West Deerfield Township" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E6D1E921D7052800490FF9 /* Debug */,
+				B5E6D1EA21D7052800490FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E6D1EB21D7052800490FF9 /* Build configuration list for PBXNativeTarget "West Deerfield Township" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E6D1EC21D7052800490FF9 /* Debug */,
+				B5E6D1ED21D7052800490FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5E6D1D121D7052700490FF9 /* Project object */;
+}
